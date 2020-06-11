@@ -97,6 +97,10 @@
         font-family: 'Work Sans', sans-serif;
     }
     
+    #heading5 {
+        color: rgb(204, 214, 246);
+    }
+    
      :root {
         --primary: #22D2A0;
         --secondary: #192824;
