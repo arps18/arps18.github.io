@@ -114,3 +114,14 @@
         justify-content: center;
         padding-left: 0;
     }
+    
+    footer {
+        background: rgb(10, 25, 47);
+        bottom: 0;
+        padding-left: 30pxb;
+        left: 0;
+        right: 0;
+        -webkit-box-shadow: 0px -4px 5px 0px rgba(2, 12, 27, 0.7);
+        -moz-box-shadow: 0px -4px 5px 0px rgba(2, 12, 27, 0.7);
+        box-shadow: 0px -4px 5px 0px rgba(2, 12, 27, 0.7);
+    }
