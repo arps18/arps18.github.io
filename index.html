@@ -46,10 +46,10 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <a class="btn nav-link" href="#about" id="navtext">About <span class="sr-only">(current)</span></a>
+                    <a class="btn nav-link" href="#about" id="navtext" data-target=".navbar-collapse.show">About <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="btn nav-link" href="#project" id="navtext">Projects</a>
+                    <a class="btn nav-link" href="#project" id="navtext" data-target=".navbar-collapse.show"> Projects</a>
                 </li>
                 <li class="nav-item">
                     <a class="btn nav-link" href="#blogs" id="navtext">Blogs</a>
@@ -433,6 +433,12 @@
                 $(".loader").fadeOut(750);
             });
         })
+    </script>
+
+    <script>
+        $('.navbar-collapse a').click(function() {
+            $(".navbar-collapse").collapse('hide');
+        });
     </script>
 
 </body>
