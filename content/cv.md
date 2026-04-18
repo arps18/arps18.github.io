@@ -53,7 +53,6 @@ Software Developer Engineer with a Master's in Computer Science from Northeaster
 
 - Portfolio: <https://arps18.github.io>
 - E-mail: [arpanpatel.contact@gmail.com](mailto:arpanpatel.contact@gmail.com)
-- Phone: +1 (857) 313-5148
 
 [LinkedIn](https://linkedin.com/in/arpanpatel18/ "LinkedIn")
 [GitHub](https://github.com/arps18 "GitHub")
