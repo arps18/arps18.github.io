@@ -1,0 +1,172 @@
+baseURL: "https://arps18.github.io/"
+title: Arpan Patel
+theme: PaperMod
+
+pagination:
+  pagerSize: 10
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+mainsections:
+  - posts
+
+minify:
+  disableXML: true
+
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    taxonomies:
+      category: categories
+      tag: tags
+      series: series
+    menu:
+      main:
+        - name: About
+          url: about/
+          weight: 5
+        - name: Projects
+          url: projects/
+          weight: 10
+        - name: Posts
+          url: posts/
+          weight: 15
+        - name: Search
+          url: search/
+          weight: 20
+        - name: Tags
+          url: tags/
+          weight: 25
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+params:
+  env: production
+  description: "Arpan Patel - Software Developer Engineer. Backend systems, distributed systems, and cloud infrastructure."
+  author: Arpan Patel
+  defaultTheme: auto
+  ShowShareButtons: false
+  ShowReadingTime: true
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowAllPagesInArchive: true
+  ShowPageNums: true
+  ShowToc: true
+  images: ["images/profile.png"]
+
+  profileMode:
+    enabled: true
+    title: "`Arpan Patel`"
+    imageUrl: "/images/profile.png"
+    imageTitle: Profile picture
+    imageWidth: 150
+    imageHeight: 150
+    subtitle: >
+      Software Developer Engineer with interests in Backend Systems, Distributed Systems,
+      Microservices, Cloud Infrastructure, and Open Source. Loves clean APIs,
+      containerization, and building scalable systems. [Read more…](/about/)
+    buttons:
+      - name: "About ✦"
+        url: about/
+        title: "Learn more about me"
+      - name: "Projects ⚙"
+        url: projects/
+        title: "A curated list of my personal projects"
+      - name: "Resume 🗏"
+        url: /resume.pdf
+        title: "My professional resume"
+      - name: "RSS Feed ᯤ"
+        url: index.xml
+        title: "Subscribe via RSS"
+
+  homeInfoParams:
+    Title: "Hi, I'm Arpan 👋"
+    Content: >
+      Software Developer Engineer at Credit Acceptance.
+
+  socialIcons:
+    - name: linkedin
+      title: LinkedIn
+      url: "https://linkedin.com/in/arpanpatel18/"
+    - name: github
+      title: GitHub
+      url: "https://github.com/arps18"
+    - name: email
+      title: Email
+      url: "mailto:arpanpatel.contact@gmail.com"
+    - name: rss
+      title: RSS
+      url: "/index.xml"
+
+  editPost:
+    URL: "https://github.com/arps18/arps18.github.io/tree/main/content"
+    Text: "Suggest Changes"
+    appendFilePath: true
+
+  label:
+    text: "Arpan Patel"
+    icon: /favicon.ico
+    iconHeight: 35
+
+  assets:
+    disableHLJS: true
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon-16x16.png"
+    favicon32x32: "/favicon-32x32.png"
+    apple_touch_icon: "/apple-touch-icon.png"
+    safari_pinned_tab: "/safari-pinned-tab.svg"
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    limit: 10
+    keys: ["title", "permalink", "summary", "content"]
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+    codeFences: true
+    guessSyntax: true
+    lineNos: true
+    style: monokai
+
+privacy:
+  vimeo:
+    disabled: false
+    simple: true
+  x:
+    disabled: false
+    enableDNT: true
+    simple: true
+  instagram:
+    disabled: false
+    simple: true
+  youtube:
+    disabled: false
+    privacyEnhanced: true
+
+services:
+  instagram:
+    disableInlineCSS: true
+  x:
+    disableInlineCSS: true
