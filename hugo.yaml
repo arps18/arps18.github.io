@@ -86,8 +86,8 @@ params:
         url: projects/
         title: "A curated list of my personal projects"
       - name: "Resume 🗏"
-        url: /resume.pdf
-        title: "My professional resume"
+        url: /cv
+        title: "My CV"
       - name: "RSS Feed ᯤ"
         url: index.xml
         title: "Subscribe via RSS"
