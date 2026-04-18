@@ -1,0 +1,94 @@
+/* ============================================================
+   Fira Code — site-wide font override
+   Loaded automatically by PaperMod from assets/css/extended/
+   ============================================================ */
+
+/* Import Fira Code with weights 300–700 and all character sets.
+   "swap" means text stays visible while the font downloads. */
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap");
+
+/* Apply Fira Code everywhere.
+   We override PaperMod's font stacks for body, monospace, and headings. */
+:root {
+  --font-family-fira:
+    "Fira Code", ui-monospace, "SF Mono", Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+}
+
+html,
+body {
+  font-family: var(--font-family-fira);
+  /* Enable programming ligatures (==, =>, !=, >=, <=, etc.) */
+  font-feature-settings:
+    "calt" 1,
+    "liga" 1,
+    "clig" 1;
+  font-variant-ligatures: contextual;
+}
+
+/* PaperMod assigns specific font-family values to these elements —
+   override each one so nothing falls back to the default sans-serif. */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.post-title,
+.post-content,
+.post-meta,
+.post-footer,
+.entry-content,
+.entry-header,
+.entry-footer,
+.main,
+.first-entry,
+.post-entry,
+nav,
+.menu,
+.logo,
+.logo a,
+button,
+input,
+select,
+textarea,
+code,
+pre,
+kbd,
+samp,
+tt,
+.highlight,
+.chroma {
+  font-family: var(--font-family-fira);
+  font-feature-settings:
+    "calt" 1,
+    "liga" 1,
+    "clig" 1;
+}
+
+/* Slightly tighter line-height for body text — monospaced fonts
+   need a bit less vertical breathing room to feel natural. */
+body {
+  line-height: 1.65;
+}
+
+/* Headings benefit from heavier weight in a monospace font. */
+h1,
+h2,
+h3 {
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+h4,
+h5,
+h6 {
+  font-weight: 500;
+}
+
+/* Inline code keeps a subtle visual distinction even when the
+   surrounding text is also monospaced — use weight and background. */
+:not(pre) > code {
+  font-weight: 500;
+  font-size: 0.95em;
+}
