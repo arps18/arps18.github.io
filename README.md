@@ -85,7 +85,6 @@ draft: false
 tags: ["tag1", "tag2"]
 summary: "A one-line description for the listing page."
 ---
-
 Your content here...
 ```
 
@@ -95,19 +94,19 @@ PaperMod uses CSS variables. Override them by creating `assets/css/extended/cust
 
 ```css
 :root {
-    --theme: #ffffff;
-    --primary: #1a1a1a;
-    --secondary: #666666;
-    --tertiary: #eaeaea;
-    --content: #333333;
+  --theme: #ffffff;
+  --primary: #1a1a1a;
+  --secondary: #666666;
+  --tertiary: #eaeaea;
+  --content: #333333;
 }
 
 .dark {
-    --theme: #1d1e20;
-    --primary: #d0d0d0;
-    --secondary: #aaaaaa;
-    --tertiary: #333333;
-    --content: #d1d1d1;
+  --theme: #1d1e20;
+  --primary: #d0d0d0;
+  --secondary: #aaaaaa;
+  --tertiary: #333333;
+  --content: #d1d1d1;
 }
 ```
 
@@ -120,6 +119,7 @@ PaperMod uses CSS variables. Override them by creating `assets/css/extended/cust
 1. **Create the repo.** Name it `arps18.github.io` (or any name — but that naming gives you a cleaner URL).
 
 2. **Push your code:**
+
    ```bash
    git add .
    git commit -m "Initial portfolio site"
@@ -199,5 +199,3 @@ git submodule update --remote --merge
 - Reference site that inspired this: [adityatelange.in](https://adityatelange.in)
 
 ---
-
-**License:** MIT. Do whatever you want with the config and content structure.
