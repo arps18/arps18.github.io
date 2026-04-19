@@ -37,12 +37,15 @@ languages:
         - name: Posts
           url: posts/
           weight: 15
+        - name: Shelf
+          url: shelf/
+          weight: 20
         - name: Search
           url: search/
-          weight: 20
-        - name: Tags
-          url: tags/
           weight: 25
+        # - name: Tags
+        #   url: tags/
+        #   weight: 25
 
 outputs:
   home:
