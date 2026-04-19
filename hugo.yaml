@@ -118,8 +118,8 @@ params:
 
   label:
     text: "Arpan Patel"
-    icon: /favicon.ico
-    iconHeight: 35
+    # icon: /favicon.ico
+    # iconHeight: 35
 
   assets:
     disableHLJS: true
