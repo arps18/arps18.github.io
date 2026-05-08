@@ -16,7 +16,7 @@ A running collection of things I've read and found worth keeping around — book
 ### Currently Reading
 
 - **Designing Data-Intensive Applications** — _Martin Kleppmann_
-  The book on distributed systems. Replication, partitioning, consistency models, stream processing — explained in a way that actually sticks. If you build backend systems, this is non-negotiable.
+  The book on distributed systems. Replication, partitioning, consistency models, stream processing, explained in a way that actually sticks. If you build backend systems, this is non-negotiable.
 
 ### Finished & Recommended
 
@@ -64,23 +64,23 @@ A running collection of things I've read and found worth keeping around — book
 
 Research papers that taught me something durable about systems.
 
-- **[The Google File System](https://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf)** _(Ghemawat, Gobioff, Leung — 2003)_
+- **[The Google File System](https://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf)** _(Ghemawat, Gobioff, Leung, 2003)_
   The ancestor of HDFS and, indirectly, most modern distributed storage. Reading the original is worth the hour.
 
-- **[MapReduce: Simplified Data Processing on Large Clusters](https://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf)** _(Dean, Ghemawat — 2004)_
+- **[MapReduce: Simplified Data Processing on Large Clusters](https://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf)** _(Dean, Ghemawat, 2004)_
   Alongside GFS, this is the paper that gave us the big-data era.
 
-- **[Dynamo: Amazon's Highly Available Key-Value Store](https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf)** _(DeCandia et al. — 2007)_
-  Consistent hashing, vector clocks, eventual consistency — the foundation for Cassandra, Riak, and DynamoDB.
+- **[Dynamo: Amazon's Highly Available Key-Value Store](https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf)** _(DeCandia et al., 2007)_
+  Consistent hashing, vector clocks, eventual consistency. The foundation for Cassandra, Riak, and DynamoDB.
 
-- **[Bigtable: A Distributed Storage System for Structured Data](https://static.googleusercontent.com/media/research.google.com/en//archive/bigtable-osdi06.pdf)** _(Chang et al. — 2006)_
+- **[Bigtable: A Distributed Storage System for Structured Data](https://static.googleusercontent.com/media/research.google.com/en//archive/bigtable-osdi06.pdf)** _(Chang et al., 2006)_
   The design still shows up everywhere. Reading this clarified a lot about how HBase and Cassandra actually work underneath.
 
-- **[In Search of an Understandable Consensus Algorithm (Raft)](https://raft.github.io/raft.pdf)** _(Ongaro, Ousterhout — 2014)_
+- **[In Search of an Understandable Consensus Algorithm (Raft)](https://raft.github.io/raft.pdf)** _(Ongaro, Ousterhout, 2014)_
   Consensus, finally explained so a human can follow it. If Paxos left you confused, read Raft.
 
-- **Parkup: Smart Parking System** _(Patel, co-author — IRJET, 2021)_
-  My own contribution — an IoT-based parking management system published in the International Research Journal of Engineering and Technology.
+- **Parkup: Smart Parking System** _(Patel, co-author, IRJET 2021)_
+  My own contribution, an IoT-based parking management system published in the International Research Journal of Engineering and Technology.
 
 ---
 
