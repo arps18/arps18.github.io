@@ -75,8 +75,8 @@ params:
     title: "`Arpan Patel`"
     imageUrl: "/images/profile.png"
     imageTitle: Profile picture
-    imageWidth: 150
-    imageHeight: 150
+    imageWidth: 100
+    imageHeight: 100
     subtitle: >
       Software Developer Engineer with interests in Backend Systems, Distributed Systems,
       Microservices, Cloud Infrastructure, and Open Source. Loves clean APIs,

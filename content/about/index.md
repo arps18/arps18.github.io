@@ -7,14 +7,19 @@ ShowReadingTime: false
 hideMeta: true
 ---
 
+<img src="/images/profile.png" alt="Arpan Patel" width="180" style="border-radius:50%;display:block;margin:0 auto 1.5rem auto;">
+
 ## Hello, I'm Arpan 👋
 
 I'm a **Software Developer Engineer** at [Credit Acceptance](https://www.creditacceptance.com), based in Austin, TX. I build backend services and APIs, work with distributed systems, and obsess over making things faster.
 
 I graduated with a **Master of Science in Computer Science** from [Northeastern University](https://www.northeastern.edu) in December 2024, where I focused on scalable and distributed systems and programming design paradigms. Before that, I earned my B.E. in Information Technology from Sardar Vallabhbhai Patel Institute of Technology.
 
-### What I do
+> "Stay hungry, stay foolish." — Steve Jobs
 
+***
+
+{{< details summary="What I do" open="true" >}}
 I enjoy working across the stack — but I'm happiest near the backend. Some of what I've shipped recently:
 
 - Built REST APIs with Micronaut and Java that improved system interoperability by 30%
@@ -23,17 +28,43 @@ I enjoy working across the stack — but I'm happiest near the backend. Some of 
 - Containerized 20+ applications with Docker and automated CI/CD with GitHub Actions
 
 Earlier in my career, I co-founded **Scudo Systems LLP**, where I developed a real-time GPS tracking system with 90% accuracy using Python, Raspberry Pi, and IoT protocols. That experience shaped how I think about systems that need to work reliably in the real world.
+{{< /details >}}
 
-### Tech I work with
-
+{{< details summary="Tech I work with" >}}
 - **Languages:** Java, Python, Go, TypeScript, SQL, C++, Swift
 - **Frameworks & Runtime:** Micronaut, Django, Node.js, Flask, React, Flutter
 - **Infrastructure:** Docker, Kubernetes, AWS, GCP, Jenkins, GitHub Actions
 - **Data & Messaging:** MySQL, MongoDB, Oracle, Kafka, Spark, Hadoop
+{{< /details >}}
 
-### Beyond the code
-
+{{< details summary="Beyond the code" >}}
 I was the **Chapter Lead of the Mozilla Campus Club** at my undergraduate campus, co-organized **Flutter Vadodara**, and served as a trusted Mozilla Rep. I've contributed to open-source projects — including the Flutter Shortcut Widget via the "Adopt a Widget" campaign on GitHub — and co-authored a research paper titled *"Parkup"* published in the International Research Journal of Engineering and Technology.
+{{< /details >}}
+
+***
+
+### Dev Setup
+
+```text
+Machine       MacBook Pro M3 14"
+OS            macOS Sequoia 15.x
+Editor        IntelliJ IDEA  /  VS Code
+Shell         zsh + Oh My Zsh
+Terminal      iTerm2
+Browser       Arc
+Theme         Catppuccin Mocha
+```
+
+***
+
+### Few Interesting Pages
+
+- [**Resume / CV**](/cv) — My professional background and experience
+- [**Projects**](/projects/) — Things I've built across distributed systems, IoT, and open source
+- [**Posts**](/posts/) — Writing on backend engineering, distributed systems, and lessons learned
+- [**Shelf**](/shelf/) — Books, papers, and articles I find worth reading
+
+***
 
 ### Get in touch
 

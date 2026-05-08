@@ -11,7 +11,9 @@ A curated list of things I've built — across distributed systems, systems prog
 
 ---
 
-### 🗂️ Distributed Key-Value Store Server
+### [Distributed Key-Value Store Server](https://github.com/arps18)
+
+active
 
 A distributed key-value store with client-server communication supporting both UDP and TCP protocols.
 
@@ -21,11 +23,11 @@ A distributed key-value store with client-server communication supporting both U
 - Utilized hash maps for efficient storage and retrieval of up to 10,000 key-value pairs, with average access time of 5ms
 - Implemented multithreading for concurrent client handling
 
-[View on GitHub →](https://github.com/arps18)
-
 ---
 
-### 📁 Unix-like File System
+### [Unix-like File System](https://github.com/arps18)
+
+active
 
 A POSIX-compliant file system implementation in C with inode-based metadata management.
 
@@ -35,11 +37,11 @@ A POSIX-compliant file system implementation in C with inode-based metadata mana
 - Designed modular structures for `readdir`, `read`, and `write` operations, reducing implementation complexity by 30%
 - Inode-based metadata management for efficient file tracking
 
-[View on GitHub →](https://github.com/arps18)
-
 ---
 
-### 🚗 Scudo Systems — Real-time GPS Tracking
+### [Scudo Systems — Real-time GPS Tracking](https://github.com/arps18)
+
+active
 
 Co-founded venture building IoT tracking hardware and the software that powers it.
 
@@ -51,7 +53,9 @@ Co-founded venture building IoT tracking hardware and the software that powers i
 
 ---
 
-### 🅿️ Parkup — Smart Parking System
+### [Parkup — Smart Parking System](https://www.irjet.net)
+
+active
 
 Research project for an intelligent parking management system, published in IRJET.
 
@@ -59,19 +63,17 @@ Research project for an intelligent parking management system, published in IRJE
 
 Co-authored and published in the International Research Journal of Engineering and Technology. Focused on real-time parking slot availability using sensor networks.
 
-[Read the paper →](https://www.irjet.net)
-
 ---
 
-### 🔌 Flutter Shortcut Widget
+### [Flutter Shortcut Widget](https://github.com/arps18)
+
+active
 
 Open-source contribution to Flutter's widget ecosystem through the "Adopt a Widget" campaign.
 
 **Tech:** Flutter · Dart · Open Source
 
 Contributed documentation, examples, and bug fixes for the shortcut widget, helping other Flutter developers adopt it more easily.
-
-[View on GitHub →](https://github.com/arps18)
 
 ---
 

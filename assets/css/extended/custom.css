@@ -92,3 +92,82 @@ h6 {
   font-weight: 500;
   font-size: 0.95em;
 }
+
+/* ============================================================
+   Collapsible detail boxes  ({{< details >}} shortcode)
+   ============================================================ */
+
+.collapse-box {
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  margin-bottom: 1rem;
+  overflow: hidden;
+}
+
+.collapse-box__title {
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 0.65rem 1rem;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  user-select: none;
+  background: var(--entry);
+  transition: background 0.15s ease;
+}
+
+.collapse-box__title::-webkit-details-marker { display: none; }
+
+.collapse-box__title::before {
+  content: "▶";
+  font-size: 0.65em;
+  transition: transform 0.2s ease;
+  flex-shrink: 0;
+}
+
+details[open] > .collapse-box__title::before {
+  transform: rotate(90deg);
+}
+
+.collapse-box__title:hover {
+  background: var(--code-bg);
+}
+
+.collapse-box__body {
+  padding: 0.75rem 1.1rem 0.9rem;
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+.collapse-box__body > *:first-child { margin-top: 0; }
+.collapse-box__body > *:last-child  { margin-bottom: 0; }
+
+/* ============================================================
+   Dev-setup / config code block — wider, no line numbers
+   ============================================================ */
+
+.setup-block pre {
+  overflow-x: auto;
+  max-width: 100%;
+  font-size: 0.88rem;
+  line-height: 1.6;
+}
+
+/* ============================================================
+   Global overflow guard
+   ============================================================ */
+
+.post-content,
+.post-single,
+.page-inner {
+  overflow-wrap: break-word;
+  word-break: break-word;
+  max-width: 100%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
