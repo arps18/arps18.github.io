@@ -7,6 +7,8 @@ ShowReadingTime: false
 hideMeta: true
 ---
 
+<div class="cv-content">
+
 [Download PDF version →](/resume.pdf)
 
 Software Developer Engineer with a Master's in Computer Science from Northeastern University and hands-on experience building scalable backend systems, REST APIs, and microservices. I focus on distributed systems, cloud infrastructure, and database performance — and I've delivered measurable wins in each. Currently building services at Credit Acceptance while continuing to contribute to open-source projects.
@@ -59,9 +61,11 @@ Software Developer Engineer with a Master's in Computer Science from Northeaster
 
 ## Job Experience
 
+<div class="cv-job">
+
 ### Software Developer Engineer
 
-[Credit Acceptance](https://www.linkedin.com/company/credit-acceptance/) • Jan 2025 - Present • Austin, TX (Remote)
+<p class="cv-meta"><a href="https://www.linkedin.com/company/credit-acceptance/" target="_blank" rel="noopener">Credit Acceptance</a> · Jan 2025 – Present · Austin, TX (Remote)</p>
 
 **Tech:** Micronaut, Docker, Kubernetes, SQL, REST APIs, Microservices, GitHub Actions, Tomcat
 
@@ -70,9 +74,12 @@ Software Developer Engineer with a Master's in Computer Science from Northeaster
 - Reduced a critical Oracle SQL query from 8s to 500ms using indexing and execution plan optimization — a 16× speedup.
 - Orchestrated microservices on Kubernetes, improving scalability and optimizing resource management.
 
+</div>
+<div class="cv-job">
+
 ### Software Developer Intern
 
-[Credit Acceptance](https://www.linkedin.com/company/credit-acceptance/) • May 2024 - Aug 2024 • Southfield, MI (Remote)
+<p class="cv-meta"><a href="https://www.linkedin.com/company/credit-acceptance/" target="_blank" rel="noopener">Credit Acceptance</a> · May 2024 – Aug 2024 · Southfield, MI (Remote)</p>
 
 **Tech:** Django, Python, Java, Docker, Kubernetes, REST APIs, Microservices, GitHub Actions
 
@@ -80,9 +87,12 @@ Software Developer Engineer with a Master's in Computer Science from Northeaster
 - Containerized 20+ applications using Docker, improving deployment speed and enhancing system efficiency.
 - Implemented GitHub Actions for CI/CD, cutting manual intervention by 50% and streamlining workflows.
 
+</div>
+<div class="cv-job">
+
 ### Software Developer Lead Intern
 
-[Sanrel LLC](https://www.linkedin.com/company/sanrel-llc/) • Jul 2023 - Dec 2023 • Worcester, MA
+<p class="cv-meta"><a href="https://www.linkedin.com/company/sanrel-llc/" target="_blank" rel="noopener">Sanrel LLC</a> · Jul 2023 – Dec 2023 · Worcester, MA</p>
 
 **Tech:** SQL, Node.js, Docker, Agile, Microservices
 
@@ -91,15 +101,20 @@ Software Developer Engineer with a Master's in Computer Science from Northeaster
 - Implemented a SQL-based inventory system using SnipeIt, boosting accuracy and efficiency by 30%.
 - Designed a robust SQL database for product inventory and shipping, reducing processing time by 40%.
 
+</div>
+<div class="cv-job">
+
 ### Co-founder and Software Developer
 
-Scudo Systems LLP • Jul 2019 - Jul 2022 • Ahmedabad, India
+<p class="cv-meta">Scudo Systems LLP · Jul 2019 – Jul 2022 · Ahmedabad, India</p>
 
 **Tech:** Python, Raspberry Pi, IoT, REST APIs
 
 - Built a custom software system for real-time device tracking with 90% accuracy.
 - Restructured the GPS algorithm to deliver 10-meter radius location accuracy, significantly improving tracking efficiency.
 - Conducted extensive testing and debugging, achieving 40% faster response times.
+
+</div>
 
 For detailed information about my professional journey and achievements, please visit my [LinkedIn profile](https://linkedin.com/in/arpanpatel18/details/experience/).
 
@@ -167,3 +182,5 @@ Relevant coursework: Analysis and Design of Algorithms, Software Engineering, Da
 **Cloud & DevOps:** Docker, Kubernetes, Jenkins, Git, GitHub Actions, AWS, GCP, Microservices
 
 **Tools & Topics:** OOP, Linux, IoT, RESTful APIs, Kafka, Spark, Hadoop, Java Networking, Shell Scripting, Android
+
+</div>

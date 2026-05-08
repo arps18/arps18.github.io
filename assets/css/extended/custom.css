@@ -197,12 +197,26 @@ details[open] > .collapse-box__title::before {
 }
 
 .card-header h3 a {
-  color: var(--primary);
-  text-decoration: none;
+  color: #4a90d9;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+  text-decoration-color: rgba(74, 144, 217, 0.45);
+}
+
+.dark .card-header h3 a {
+  color: #7eb8f7;
+  text-decoration-color: rgba(126, 184, 247, 0.4);
 }
 
 .card-header h3 a:hover {
-  text-decoration: underline;
+  color: #2563eb;
+  text-decoration-color: rgba(37, 99, 235, 0.7);
+}
+
+.dark .card-header h3 a:hover {
+  color: #93c5fd;
+  text-decoration-color: rgba(147, 197, 253, 0.7);
 }
 
 .badge {
@@ -298,4 +312,197 @@ img.profile-photo {
     padding: 0.6rem 0.75rem 0.75rem;
     font-size: 0.9rem;
   }
+}
+
+/* ============================================================
+   Project card — highlights, tech line, inline code
+   ============================================================ */
+
+/* Bold labels (Tech:, etc.) get a muted amber accent */
+.card-content strong {
+  color: #ca8a04;
+  font-weight: 600;
+}
+
+.dark .card-content strong {
+  color: #facc15;
+}
+
+/* Tech stack line: subtle left border + cyan text for the tech items */
+.card-content p:has(> strong:first-child) {
+  color: #0891b2;
+  border-left: 2px solid rgba(8, 145, 178, 0.35);
+  padding: 0.2rem 0.6rem;
+  border-radius: 0 4px 4px 0;
+  margin: 0.4rem 0 0.5rem;
+  background: rgba(6, 182, 212, 0.04);
+}
+
+/* Keep "Tech:" label amber, not cyan */
+.card-content p:has(> strong:first-child) strong {
+  color: #ca8a04;
+}
+
+.dark .card-content p:has(> strong:first-child) {
+  color: #22d3ee;
+  border-left-color: rgba(34, 211, 238, 0.3);
+  background: rgba(34, 211, 238, 0.05);
+}
+
+.dark .card-content p:has(> strong:first-child) strong {
+  color: #facc15;
+}
+
+/* Inline code — subtle tint */
+.card-content :not(pre) > code {
+  background: rgba(8, 145, 178, 0.08);
+  color: #0369a1;
+  border-radius: 3px;
+  padding: 0.1em 0.35em;
+  font-size: 0.9em;
+}
+
+.dark .card-content :not(pre) > code {
+  background: rgba(34, 211, 238, 0.1);
+  color: #67e8f9;
+}
+
+/* ============================================================
+   Blog posts & Shelf — links, bold, italic, inline code
+   (teal links · violet bold · amber code — distinct from projects)
+   ============================================================ */
+
+/* Links: teal, always underlined, subtle underline color */
+.post-content a {
+  color: #0d9488;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+  text-decoration-color: rgba(13, 148, 136, 0.4);
+}
+
+.dark .post-content a {
+  color: #2dd4bf;
+  text-decoration-color: rgba(45, 212, 191, 0.35);
+}
+
+.post-content a:hover {
+  color: #0f766e;
+  text-decoration-color: rgba(15, 118, 110, 0.7);
+}
+
+.dark .post-content a:hover {
+  color: #5eead4;
+  text-decoration-color: rgba(94, 234, 212, 0.7);
+}
+
+/* Bold key terms: golden yellow accent */
+.post-content strong {
+  color: #ca8a04;
+  font-weight: 600;
+}
+
+.dark .post-content strong {
+  color: #facc15;
+}
+
+/* Italic (author names on shelf, emphasis in posts): muted teal */
+.post-content em {
+  color: #4b7c78;
+  font-style: italic;
+}
+
+.dark .post-content em {
+  color: #7dd3c8;
+}
+
+/* Inline code: warm amber tint */
+.post-content :not(pre) > code {
+  background: rgba(217, 119, 6, 0.08);
+  color: #b45309;
+  border-radius: 3px;
+  padding: 0.1em 0.35em;
+  font-size: 0.9em;
+}
+
+.dark .post-content :not(pre) > code {
+  background: rgba(251, 191, 36, 0.1);
+  color: #fcd34d;
+}
+
+/* Section headings inside posts: subtle teal left-border accent */
+.post-content h2 {
+  border-left: 3px solid rgba(13, 148, 136, 0.4);
+  padding-left: 0.6rem;
+  margin-left: -0.7rem;
+}
+
+.dark .post-content h2 {
+  border-left-color: rgba(45, 212, 191, 0.35);
+}
+
+/* ============================================================
+   CV page  (.cv-content wrapper + .cv-job entries)
+   ============================================================ */
+
+/* Override post-content yellow strong → bright yellow for CV */
+.cv-content strong {
+  color: #ca8a04;
+  font-weight: 600;
+}
+
+.dark .cv-content strong {
+  color: #facc15;
+}
+
+/* Tech & skills lines → cyan (same visual as projects page) */
+.cv-content p:has(> strong:first-child) {
+  color: #0891b2;
+  border-left: 2px solid rgba(8, 145, 178, 0.35);
+  padding: 0.2rem 0.6rem;
+  border-radius: 0 4px 4px 0;
+  background: rgba(6, 182, 212, 0.04);
+  margin: 0.3rem 0 0.5rem;
+}
+
+.cv-content p:has(> strong:first-child) strong {
+  color: #ca8a04;
+}
+
+.dark .cv-content p:has(> strong:first-child) {
+  color: #22d3ee;
+  border-left-color: rgba(34, 211, 238, 0.3);
+  background: rgba(34, 211, 238, 0.05);
+}
+
+.dark .cv-content p:has(> strong:first-child) strong {
+  color: #facc15;
+}
+
+/* Job entry block spacing */
+.cv-job {
+  margin-bottom: 1.8rem;
+}
+
+.cv-job h3 {
+  margin-bottom: 0.1rem;
+}
+
+/* Company · date · location meta line */
+.cv-meta {
+  color: var(--secondary);
+  font-size: 0.85em;
+  margin: 0.05rem 0 0.5rem !important;
+  letter-spacing: 0.01em;
+}
+
+/* CV section h2 — slightly stronger left border than posts */
+.cv-content h2 {
+  border-left: 3px solid rgba(13, 148, 136, 0.5);
+  padding-left: 0.65rem;
+  margin-left: -0.75rem;
+}
+
+.dark .cv-content h2 {
+  border-left-color: rgba(45, 212, 191, 0.45);
 }
