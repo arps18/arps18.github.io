@@ -94,6 +94,24 @@ h6 {
 }
 
 /* ============================================================
+   Flaticon Uicons — sizing & alignment
+   ============================================================ */
+
+/* Icons inside headings */
+h1 .fi, h2 .fi, h3 .fi {
+  font-size: 0.85em;
+  vertical-align: middle;
+  margin-right: 0.25em;
+}
+
+/* Icons inside buttons */
+.button-inner .fi {
+  font-size: 0.85em;
+  vertical-align: middle;
+  margin-right: 0.3em;
+}
+
+/* ============================================================
    Collapsible detail boxes  ({{< details >}} shortcode)
    ============================================================ */
 

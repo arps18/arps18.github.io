@@ -82,21 +82,21 @@ params:
       Microservices, Cloud Infrastructure, and Open Source. Loves clean APIs,
       containerization, and building scalable systems. [Read more…](/about/)
     buttons:
-      - name: "About ✦"
+      - name: '<i class="fi fi-rr-user"></i> About'
         url: about/
         title: "Learn more about me"
-      - name: "Projects ⚙"
+      - name: '<i class="fi fi-rr-apps"></i> Projects'
         url: projects/
         title: "A curated list of my personal projects"
-      - name: "Resume 🗏"
+      - name: '<i class="fi fi-rr-document"></i> Resume'
         url: /cv
         title: "My CV"
-      - name: "RSS Feed ᯤ"
+      - name: '<i class="fi fi-rr-rss"></i> RSS Feed'
         url: index.xml
         title: "Subscribe via RSS"
 
   homeInfoParams:
-    Title: "Hi, I'm Arpan 👋"
+    Title: "<i class=\"fi fi-rr-hand-wave\"></i> Hi, I'm Arpan"
     Content: >
       Software Developer Engineer at Credit Acceptance.
 

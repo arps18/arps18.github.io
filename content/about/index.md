@@ -9,7 +9,7 @@ hideMeta: true
 
 <img src="/images/profile.png" alt="Arpan Patel" class="profile-photo">
 
-## Hello, I'm Arpan 👋
+## <i class="fi fi-rr-hand-wave"></i> Hello, I'm Arpan
 
 I'm a **Software Developer Engineer** at [Credit Acceptance](https://www.creditacceptance.com), based in Austin, TX. I build backend services and APIs, work with distributed systems, and obsess over making things faster.
 

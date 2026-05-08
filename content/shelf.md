@@ -11,7 +11,7 @@ disableAnchoredHeadings: false
 
 A running collection of things I've read and found worth keeping around — books that shaped how I think, papers that sharpened my technical depth, and articles I return to. Updated as I read.
 
-## 📚 Books
+## <i class="fi fi-rr-book"></i> Books
 
 ### Currently Reading
 
@@ -41,7 +41,7 @@ A running collection of things I've read and found worth keeping around — book
 
 ---
 
-## 📄 Papers
+## <i class="fi fi-rr-file"></i> Papers
 
 Research papers that taught me something durable about systems.
 
@@ -65,7 +65,7 @@ Research papers that taught me something durable about systems.
 
 ---
 
-## 📰 Articles
+## <i class="fi fi-rr-newspaper"></i> Articles
 
 Short-form writing I've bookmarked and returned to.
 
