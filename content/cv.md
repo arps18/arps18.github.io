@@ -15,18 +15,14 @@ Software Developer Engineer with a Master's in Computer Science from Northeaster
 
 ### Key Expertise:
 
-- Backend Development (Java, Python, Go).
-- REST API Design and Microservices Architecture.
-- Distributed Systems and Scalability.
-- Database Optimization (Oracle, MySQL, MongoDB).
-- Containerization and Orchestration (Docker, Kubernetes).
-- CI/CD Pipelines (GitHub Actions, Jenkins).
-- Cloud Platforms (AWS, GCP).
-- Event Streaming (Kafka, Spark, Hadoop).
-- Socket Programming and Networking.
-- Mobile Development (Flutter, Android, iOS/Swift).
+- Systems Programming and Backend Development (Java, Python, Go, C++).
+- Networking and Protocol Engineering (TCP/IP, UDP, DNS, TLS/SSL, RPC, HTTP/HTTPS).
+- Applied AI and Data Platforms (LangChain, Vector Databases, Redis Semantic Cache, Ollama).
+- Distributed Systems and Cloud Infrastructure (Kafka, Spark, Hadoop, Kubernetes, Docker, AWS, GCP).
+- Database Engineering and Optimization (Oracle, MySQL, MongoDB).
+- Systems Debugging and Tooling (GDB, Valgrind, tcpdump, Linux Internals).
+- CI/CD and Developer Tooling (Git, Jenkins, GitHub Actions, Shell Scripting).
 - IoT Systems and Embedded Development.
-- Agile Methodologies and Team Leadership.
 
 ### Achievements:
 
@@ -173,14 +169,16 @@ Relevant coursework: Analysis and Design of Algorithms, Software Engineering, Da
 
 ## Technical Skills
 
-**Programming Languages:** Java, Python, C++, SQL, Swift, TypeScript, JavaScript, Go
+**Programming Languages:** Java, Python, C++, SQL, Swift, Go, TypeScript, JavaScript
 
-**Frameworks:** Micronaut, Node.js, JUnit, Flutter, React, Django, Flask
+**Networking & Protocols:** TCP/IP, UDP, DNS, TLS/SSL, RPC, HTTP/HTTPS, REST
 
-**Databases:** MySQL, MongoDB, Oracle, Firebase
+**AI & Data Platforms:** LangChain, Vector Databases (Pinecone, Milvus), Redis Semantic Cache, Ollama
 
-**Cloud & DevOps:** Docker, Kubernetes, Jenkins, Git, GitHub Actions, AWS, GCP, Microservices
+**Tools & Debugging:** GDB, Valgrind, tcpdump, Git, Jenkins, Shell Scripting, Linux Internals
 
-**Tools & Topics:** OOP, Linux, IoT, RESTful APIs, Kafka, Spark, Hadoop, Java Networking, Shell Scripting, Android
+**Distributed Systems:** Kafka, Spark, Hadoop, Kubernetes, Docker, Microservices, AWS, GCP
+
+**Development:** Node.js, Micronaut, Django, MySQL, MongoDB, Android, ReactJS
 
 </div>

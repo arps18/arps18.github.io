@@ -17,7 +17,7 @@ I graduated with a **Master of Science in Computer Science** from [Northeastern 
 
 > "Stay hungry, stay foolish." — Steve Jobs
 
-***
+---
 
 {{< details summary="What I do" open="true" >}}
 I care about building software that holds up under pressure. Not just software that works in a demo, but systems that stay correct under concurrency, stay fast under load, and stay debuggable when things go sideways at 2am.
@@ -28,31 +28,54 @@ Earlier in my career, I co-founded **Scudo Systems LLP**, where we built real-ti
 {{< /details >}}
 
 {{< details summary="Tech I work with" >}}
-- **Languages:** Java, Python, Go, TypeScript, SQL, C++, Swift
-- **Frameworks & Runtime:** Micronaut, Django, Node.js, Flask, React, Flutter
-- **Infrastructure:** Docker, Kubernetes, AWS, GCP, Jenkins, GitHub Actions
-- **Data & Messaging:** MySQL, MongoDB, Oracle, Kafka, Spark, Hadoop
-{{< /details >}}
+
+- **Programming Languages:** Java, Python, C++, SQL, Swift, Go, TypeScript, JavaScript
+- **Networking & Protocols:** TCP/IP, UDP, DNS, TLS/SSL, RPC, HTTP/HTTPS, REST
+- **AI & Data Platforms:** LangChain, Vector Databases (Pinecone, Milvus), Redis Semantic Cache, Ollama
+- **Tools & Debugging:** GDB, Valgrind, tcpdump, Git, Jenkins, Shell Scripting, Linux Internals
+- **Distributed Systems:** Kafka, Spark, Hadoop, Kubernetes, Docker, Microservices, AWS, GCP
+- **Development:** Node.js, Micronaut, Django, MySQL, MongoDB, Android, ReactJS
+  {{< /details >}}
 
 {{< details summary="Beyond the code" >}}
-I was the **Chapter Lead of the Mozilla Campus Club** at my undergraduate campus, co-organized **Flutter Vadodara**, and served as a trusted Mozilla Rep. I've contributed to open-source projects — including the Flutter Shortcut Widget via the "Adopt a Widget" campaign on GitHub — and co-authored a research paper titled *"Parkup"* published in the International Research Journal of Engineering and Technology.
+I was the **Chapter Lead of the Mozilla Campus Club** at my undergraduate campus, co-organized **Flutter Vadodara**, and served as a trusted Mozilla Rep. I've contributed to open-source projects, including the Flutter Shortcut Widget via the "Adopt a Widget" campaign on GitHub, and co-authored a research paper titled _"Parkup"_ published in the International Research Journal of Engineering and Technology.
 {{< /details >}}
 
-***
+---
 
-### Dev Setup
+{{< details summary="Dev Setup" class="dev-setup" >}}
+**Hardware & OS**
 
-```text
-Machine       MacBook Pro M3 14"
-OS            macOS Sequoia 15.x
-Editor        IntelliJ IDEA  /  VS Code
-Shell         zsh + Oh My Zsh
-Terminal      iTerm2
-Browser       Arc
-Theme         Catppuccin Mocha
-```
+- MacBook Pro M2 13"
+- macOS Sequoia 15.x
 
-***
+**Editor & Terminal**
+
+- IntelliJ IDEA — primary for Java/backend
+- VS Code — the one that has a plugin for everything, including my indecision
+- iTerm2 + zsh + Oh My Zsh
+- Arc
+
+**VS Code Extensions**
+
+- GitLens — git blame and history inline
+- Error Lens — errors and warnings inline, no hovering needed
+- REST Client — test APIs without leaving the editor
+- Docker — container management from the sidebar
+- Remote SSH — dev on remote machines without friction
+
+**Apps**
+
+- Raycast — launcher, clipboard history, quick calculations
+- AltTab — proper window switching on macOS
+- Docker Desktop — container management
+- Notion — where every great idea goes to become a perfectly formatted, never-finished document
+- Day One — daily journal
+- Claude Code — AI in the terminal
+- Spotify — the real IDE, been shipping focus playlists since 2017
+  {{< /details >}}
+
+---
 
 ### Few Interesting Pages
 
@@ -61,7 +84,7 @@ Theme         Catppuccin Mocha
 - [**Posts**](/posts/): Writing on backend engineering, distributed systems, and lessons learned
 - [**Shelf**](/shelf/): Books, papers, and articles I find worth reading
 
-***
+---
 
 ### Get in touch
 
