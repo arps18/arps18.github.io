@@ -7,7 +7,7 @@ ShowReadingTime: false
 hideMeta: true
 ---
 
-<img src="/images/profile.png" alt="Arpan Patel" width="180" style="border-radius:50%;display:block;margin:0 auto 1.5rem auto;">
+<img src="/images/profile.png" alt="Arpan Patel" class="profile-photo">
 
 ## Hello, I'm Arpan 👋
 

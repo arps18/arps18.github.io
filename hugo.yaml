@@ -114,10 +114,6 @@ params:
       title: RSS
       url: "/index.xml"
 
-  editPost:
-    URL: "https://github.com/arps18/arps18.github.io/tree/main/content"
-    Text: "Suggest Changes"
-    appendFilePath: true
 
   label:
     text: "Arpan Patel"
