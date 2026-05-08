@@ -32,12 +32,31 @@ A running collection of things I've read and found worth keeping around — book
 - **Atomic Habits** — _James Clear_
   Not a tech book, but the framing around small, compounding changes shaped how I approach long projects.
 
+- **Project Hail Mary** — _Andy Weir_
+  My favourite book. A lone astronaut wakes up millions of miles from Earth with no memory, tasked with saving humanity. Wildly fun, scientifically clever, one of those books that makes you genuinely excited about science again.
+
+- **Astrophysics for People in a Hurry** — _Neil deGrasse Tyson_
+  The universe in under 200 pages. Dense with wonder, light on jargon. Best read on a commute or right before bed when your brain still wants to be amazed.
+
+- **Wings of Fire** — _A.P.J. Abdul Kalam_
+  The autobiography of India's missile man and 11th President. A story of humility, curiosity, and relentless scientific ambition. Hard not to come away inspired.
+
+- **The Psychology of Money** — _Morgan Housel_
+  Wealth isn't about spreadsheets, it's about behaviour. Short chapters, enduring lessons on how money and human psychology intersect in ways most finance books never touch.
+
 ### To Read
 
 - **Database Internals** — _Alex Petrov_
 - **System Design Interview (Vol. 1 & 2)** — _Alex Xu_
 - **The Phoenix Project** — _Gene Kim, Kevin Behr, George Spafford_
 - **Site Reliability Engineering** — _Betsy Beyer et al._ (the Google SRE book, free online)
+
+---
+
+## <i class="fi fi-rr-newspaper"></i> Magazines & Series
+
+- **Tell Me Why** — _Manorama_
+  A monthly magazine series I grew up reading obsessively. Each issue covered one topic: Universe, Computers, Festivals, Psychology. Just enough depth to leave you wanting more, and I'd read the Universe and Computers ones cover to cover more than once. A big part of why curiosity stuck.
 
 ---
 

@@ -30,7 +30,7 @@ Software Developer Engineer with a Master's in Computer Science from Northeaster
 
 ### Achievements:
 
-- Optimized a critical Oracle SQL query from 8s to 500ms — a 16× speedup — through indexing strategies.
+- Optimized a critical Oracle SQL query from 8s to 500ms (16× speedup) through indexing strategies.
 - Reduced query response time by 40% by implementing an internal service to streamline data processing workflows.
 - Enhanced system interoperability by 30% through robust REST API development.
 - Containerized 20+ applications with Docker, significantly improving deployment speed.

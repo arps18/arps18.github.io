@@ -4,7 +4,7 @@ date: 2026-03-15T10:00:00-05:00
 draft: false
 tags: ["sql", "oracle", "performance", "backend"]
 categories: ["engineering"]
-summary: "How I took a critical query from 8 seconds down to 500ms — a 16× speedup — through indexing, execution plan analysis, and a few hard-earned lessons."
+summary: "How I took a critical query from 8 seconds down to 500ms (a 16× speedup) through indexing, execution plan analysis, and a few hard-earned lessons."
 ShowToc: true
 TocOpen: false
 ---
@@ -50,7 +50,7 @@ After adding the index, I ran `EXPLAIN PLAN` again. The full table scan was gone
 
 ## Takeaways
 
-- **Always start with `EXPLAIN PLAN`** — guessing at optimizations without understanding what the DB is actually doing is a losing game.
+- **Always start with `EXPLAIN PLAN`.** Guessing at optimizations without understanding what the DB is actually doing is a losing game.
 - **Composite index column order matters.** Lead with the most selective predicate.
 - **Measure, don't assume.** Even after adding the index, I ran benchmarks with real production-like data volumes before calling it done.
 

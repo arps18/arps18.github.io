@@ -4,12 +4,12 @@ date: 2026-01-20T09:00:00-05:00
 draft: false
 tags: ["kubernetes", "docker", "microservices", "devops"]
 categories: ["engineering"]
-summary: "A year of running microservices on Kubernetes — what worked, what didn't, and what I'd do differently."
+summary: "A year of running microservices on Kubernetes: what worked, what didn't, and what I'd do differently."
 ShowToc: true
 TocOpen: false
 ---
 
-After a year of orchestrating microservices on Kubernetes in production, I've collected a set of lessons — some earned painfully. Here they are.
+After a year of orchestrating microservices on Kubernetes in production, I've collected a set of lessons, some earned painfully. Here they are.
 
 ## 1. Resource limits are not optional
 
@@ -48,7 +48,7 @@ Expose `/health/ready` that checks DB connections, cache warmup, etc. — not ju
 
 ## 3. ConfigMaps and Secrets — separate them
 
-Configuration values go in ConfigMaps. Anything sensitive — API keys, DB credentials, tokens — goes in Secrets. Don't bake either into images.
+Configuration values go in ConfigMaps. Anything sensitive (API keys, DB credentials, tokens) goes in Secrets. Don't bake either into images.
 
 And enable encryption at rest for etcd. Kubernetes Secrets are base64-encoded by default, not encrypted.
 
@@ -79,7 +79,7 @@ spec:
 
 ## 5. Invest in observability early
 
-Prometheus, Grafana, centralized logging — set these up before you need them. When something breaks at 2 AM, you'll want the data already flowing.
+Prometheus, Grafana, centralized logging. Set these up before you need them. When something breaks at 2 AM, you'll want the data already flowing.
 
 ---
 

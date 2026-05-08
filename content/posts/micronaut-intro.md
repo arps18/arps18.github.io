@@ -4,7 +4,7 @@ date: 2026-02-10T14:00:00-05:00
 draft: false
 tags: ["micronaut", "java", "rest", "microservices"]
 categories: ["engineering"]
-summary: "Why I picked Micronaut over Spring Boot for microservices — and what I learned along the way."
+summary: "Why I picked Micronaut over Spring Boot for microservices, and what I learned along the way."
 ShowToc: true
 TocOpen: false
 ---

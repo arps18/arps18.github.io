@@ -51,7 +51,7 @@ A curated list of things I've built — across distributed systems, systems prog
     <p><strong>Tech:</strong> HTML · CSS · JavaScript · Browser Extension · Chrome · Firefox</p>
     <ul>
       <li>One-click access to multiple social media profiles from the browser toolbar</li>
-      <li>Fully customizable — swap in personal images and custom links</li>
+      <li>Fully customizable by swapping in personal images and custom links</li>
       <li>Cross-browser compatible (Chrome, Edge, Firefox) with simple load-unpacked install</li>
     </ul>
   </div>
@@ -62,7 +62,7 @@ A curated list of things I've built — across distributed systems, systems prog
     <h3><a href="https://github.com/arps18/Crypto-Track" target="_blank" rel="noopener">Crypto-Track — Real-time Cryptocurrency Tracker</a></h3>
   </div>
   <div class="card-content">
-    <p>A real-time cryptocurrency price tracker web app — track prices of cryptocurrencies on the go.</p>
+    <p>A real-time cryptocurrency price tracker web app for tracking prices on the go.</p>
     <p><strong>Tech:</strong> JavaScript · HTML · CSS · REST APIs</p>
     <ul>
       <li>Real-time cryptocurrency price monitoring with automatic updates on refresh</li>
@@ -77,7 +77,7 @@ A curated list of things I've built — across distributed systems, systems prog
     <h3><a href="https://github.com/arps18/gym_management_SQL" target="_blank" rel="noopener">Gym Management — DBMS Demonstration</a></h3>
   </div>
   <div class="card-content">
-    <p>A DBMS demonstration script showcasing structured data management with Python — modeled on the Marino Center Gym.</p>
+    <p>A DBMS demonstration script showcasing structured data management with Python, modeled on the Marino Center Gym.</p>
     <p><strong>Tech:</strong> Python · SQL · Triggers · Functions · CRUD</p>
     <ul>
       <li>Demonstrates core DBMS concepts: triggers, stored functions, and constraints</li>
@@ -221,4 +221,4 @@ A curated list of things I've built — across distributed systems, systems prog
 
 </div>
 
-*Want to see more? My [GitHub](https://github.com/arps18) has the full collection.*
+_Want to see more? My [GitHub](https://github.com/arps18) has the full collection._
