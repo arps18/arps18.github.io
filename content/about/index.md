@@ -20,14 +20,11 @@ I graduated with a **Master of Science in Computer Science** from [Northeastern 
 ***
 
 {{< details summary="What I do" open="true" >}}
-I enjoy working across the stack — but I'm happiest near the backend. Some of what I've shipped recently:
+I care about building software that holds up under pressure. Not just software that works in a demo, but systems that stay correct under concurrency, stay fast under load, and stay debuggable when things go sideways at 2am.
 
-- Built REST APIs with Micronaut and Java that improved system interoperability by 30%
-- Optimized Oracle SQL queries from 8 seconds down to 500ms (16× speedup) through indexing strategies
-- Orchestrated microservices on Kubernetes for better scalability and resource management
-- Containerized 20+ applications with Docker and automated CI/CD with GitHub Actions
+Most of what I find interesting lives close to the metal: how memory is laid out, why a syscall takes longer than it should, what the scheduler is doing while you wait. I also spend a fair bit of time thinking about applied AI, specifically how language models fit into real production systems as useful primitives rather than bolted-on features.
 
-Earlier in my career, I co-founded **Scudo Systems LLP**, where I developed a real-time GPS tracking system with 90% accuracy using Python, Raspberry Pi, and IoT protocols. That experience shaped how I think about systems that need to work reliably in the real world.
+Earlier in my career, I co-founded **Scudo Systems LLP**, where we built real-time GPS tracking from the hardware layer up through the software stack. Shipping something that had to be accurate in the physical world, on constrained hardware, taught me more about what reliability actually means than any textbook did.
 {{< /details >}}
 
 {{< details summary="Tech I work with" >}}
