@@ -86,10 +86,6 @@ I was the **Chapter Lead of the Mozilla Campus Club** at my undergraduate campus
 
 ---
 
-> Views expressed here are my own and do not represent my employer or any organization I am associated with.
-
----
-
 ### Get in touch
 
 I'm always up for a conversation about distributed systems, backend architecture, or just a good book recommendation.
@@ -97,3 +93,5 @@ I'm always up for a conversation about distributed systems, backend architecture
 - **Email:** [arpanpatel.contact@gmail.com](mailto:arpanpatel.contact@gmail.com)
 - **LinkedIn:** [linkedin.com/in/arpanpatel18](https://linkedin.com/in/arpanpatel18/)
 - **GitHub:** [github.com/arps18](https://github.com/arps18)
+
+<p style="color: gray; font-size: 0.8em;">Views expressed here are my own and do not represent my employer or any organization I am associated with.</p>
