@@ -9,7 +9,7 @@ hideMeta: true
 disableAnchoredHeadings: false
 ---
 
-A running collection of things I've read and found worth keeping around — books that shaped how I think, papers that sharpened my technical depth, and articles I return to. Updated as I read.
+A running collection of things I've read and found worth keeping around books that shaped how I think, papers that sharpened my technical depth, and articles I return to. Updated as I read.
 
 ## <i class="fi fi-rr-book"></i> Books
 
