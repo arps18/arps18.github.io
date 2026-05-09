@@ -19,15 +19,15 @@ I graduated with a **Master of Science in Computer Science** from [Northeastern 
 
 ---
 
-{{< details summary="What I do" open="true" >}}
-I care about building software that holds up under pressure. Not just software that works in a demo, but systems that stay correct under concurrency, stay fast under load, and stay debuggable when things go sideways at 2am.
+{{< details summary="What I do" open="true" class="section-blue" >}}
+I care about building software that holds up under pressure. Not just software that works in a demo, but systems that stay **correct under concurrency**, stay **fast under load**, and stay **debuggable** when things go sideways at 2am.
 
-Most of what I find interesting lives close to the metal: how memory is laid out, why a syscall takes longer than it should, what the scheduler is doing while you wait. I also spend a fair bit of time thinking about applied AI, specifically how language models fit into real production systems as useful primitives rather than bolted-on features.
+Most of what I find interesting lives **close to the metal**: how memory is laid out, why a syscall takes longer than it should, what the scheduler is doing while you wait. I also spend a fair bit of time thinking about **applied AI**, specifically how **language models** fit into real production systems as useful primitives rather than bolted-on features.
 
-Earlier in my career, I co-founded **Scudo Systems LLP**, where we built real-time GPS tracking from the hardware layer up through the software stack. Shipping something that had to be accurate in the physical world, on constrained hardware, taught me more about what reliability actually means than any textbook did.
+Earlier in my career, I co-founded **Scudo Systems LLP**, where we built **real-time GPS tracking** from the hardware layer up through the software stack. Shipping something that had to be accurate in the physical world, on constrained hardware, taught me more about what **reliability** actually means than any textbook did.
 {{< /details >}}
 
-{{< details summary="Tech I work with" >}}
+{{< details summary="Tech I work with" class="section-green" >}}
 
 - **Programming Languages:** Java, Python, C++, SQL, Swift, Go, TypeScript, JavaScript
 - **Networking & Protocols:** TCP/IP, UDP, DNS, TLS/SSL, RPC, HTTP/HTTPS, REST
@@ -37,7 +37,7 @@ Earlier in my career, I co-founded **Scudo Systems LLP**, where we built real-ti
 - **Development:** Node.js, Micronaut, Django, MySQL, MongoDB, Android, ReactJS
   {{< /details >}}
 
-{{< details summary="Beyond the code" >}}
+{{< details summary="Beyond the code" class="section-purple" >}}
 I was the **Chapter Lead of the Mozilla Campus Club** at my undergraduate campus, co-organized **Flutter Vadodara**, and served as a trusted Mozilla Rep. I've contributed to open-source projects, including the Flutter Shortcut Widget via the "Adopt a Widget" campaign on GitHub, and co-authored a research paper titled _"Parkup"_ published in the International Research Journal of Engineering and Technology.
 {{< /details >}}
 
@@ -83,6 +83,10 @@ I was the **Chapter Lead of the Mozilla Campus Club** at my undergraduate campus
 - [**Projects**](/projects/): Things I've built across distributed systems, IoT, and open source
 - [**Posts**](/posts/): Writing on backend engineering, distributed systems, and lessons learned
 - [**Shelf**](/shelf/): Books, papers, and articles I find worth reading
+
+---
+
+> Views expressed here are my own and do not represent my employer or any organization I am associated with.
 
 ---
 

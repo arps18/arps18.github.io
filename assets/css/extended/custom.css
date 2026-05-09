@@ -573,6 +573,75 @@ img.profile-photo {
   border-color: rgba(247, 56, 89, 0.28);
 }
 
+/* ============================================================
+   About page — keyword highlights inside section bodies
+   ============================================================ */
+
+/* About page sections — light blue keywords */
+.section-blue .collapse-box__body strong,
+.section-green .collapse-box__body strong,
+.section-purple .collapse-box__body strong {
+  color: #38bdf8;
+  font-weight: 600;
+}
+.dark .section-blue .collapse-box__body strong,
+.dark .section-green .collapse-box__body strong,
+.dark .section-purple .collapse-box__body strong {
+  color: #7dd3fc;
+}
+
+/* ============================================================
+   About page — Steve Jobs blockquote
+   ============================================================ */
+
+.post-content blockquote {
+  border-left: 3px solid #fb923c;
+  background: transparent;
+  padding: 0.6rem 1rem;
+  border-radius: 0 6px 6px 0;
+  color: #ea580c;
+  font-style: italic;
+  margin: 1.2rem 0;
+}
+
+.dark .post-content blockquote {
+  background: transparent;
+  border-left-color: #fb923c;
+  color: #fdba74;
+}
+
+.post-content blockquote p {
+  margin: 0;
+}
+
+/* ============================================================
+   Landing page — "Read more" link in profile subtitle
+   ============================================================ */
+
+.profile_inner span a {
+  color: #06b6d4;
+  font-weight: 500;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-color: rgba(6, 182, 212, 0.4);
+  transition: color 0.15s ease;
+}
+
+.profile_inner span a:hover {
+  color: #0891b2;
+  text-decoration-color: rgba(8, 145, 178, 0.7);
+}
+
+.dark .profile_inner span a {
+  color: #22d3ee;
+  text-decoration-color: rgba(34, 211, 238, 0.35);
+}
+
+.dark .profile_inner span a:hover {
+  color: #67e8f9;
+  text-decoration-color: rgba(103, 232, 249, 0.6);
+}
+
 /* List items — shared base */
 .dev-setup .collapse-box__body ul {
   border-left: 2px solid;
