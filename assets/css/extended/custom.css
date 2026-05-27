@@ -722,3 +722,34 @@ img.profile-photo {
 
 .dev-setup .collapse-box__body ul:nth-of-type(4) { border-color: rgba(247, 56, 89, 0.3); }
 .dev-setup .collapse-box__body ul:nth-of-type(4) li::marker { color: #f73859; }
+
+/* ============================================================
+   About page — visitor counter
+   ============================================================ */
+
+.visitor-counter {
+  text-align: center;
+  color: var(--secondary);
+  font-size: 0.78em;
+  margin: 1.2rem 0 0;
+  letter-spacing: 0.01em;
+}
+
+.visitor-counter #vc-num {
+  color: #0d9488;
+  font-weight: 600;
+}
+
+.dark .visitor-counter #vc-num {
+  color: #2dd4bf;
+}
+
+.visitor-counter .fi {
+  color: #0d9488;
+  vertical-align: middle;
+  margin-right: 0.2em;
+}
+
+.dark .visitor-counter .fi {
+  color: #2dd4bf;
+}

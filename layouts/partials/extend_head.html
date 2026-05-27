@@ -1,1 +1,22 @@
 <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+
+{{ if .IsHome }}
+<script>
+(function () {
+  var SB_URL = 'https://xibcljowrcwdyvwhglju.supabase.co';
+  var SB_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InhpYmNsam93cmN3ZHl2d2hnbGp1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzk4NDU0ODQsImV4cCI6MjA5NTQyMTQ4NH0.ZFB9zka-7vvnk20wuZN3f-qQtYYkmmWN1lky4z7l0iI';
+  if (localStorage.getItem('lp_visited_v1')) return;
+  fetch(SB_URL + '/rest/v1/rpc/increment_visitor', {
+    method: 'POST',
+    headers: {
+      'apikey': SB_KEY,
+      'Authorization': 'Bearer ' + SB_KEY,
+      'Content-Type': 'application/json'
+    },
+    body: '{}'
+  }).then(function (r) {
+    if (r.ok) localStorage.setItem('lp_visited_v1', '1');
+  }).catch(function () {});
+})();
+</script>
+{{ end }}

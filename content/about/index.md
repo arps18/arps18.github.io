@@ -95,3 +95,23 @@ I'm always up for a conversation about distributed systems, backend architecture
 - **GitHub:** [github.com/arps18](https://github.com/arps18)
 
 <p style="color: gray; font-size: 0.8em;">Views expressed here are my own and do not represent my employer or any organization I am associated with.</p>
+
+<div id="visitor-counter" class="visitor-counter">
+  <i class="fi fi-rr-users"></i> <span id="vc-num">—</span> unique visitors have dropped by
+</div>
+<script>
+(function () {
+  var SB_URL = 'https://xibcljowrcwdyvwhglju.supabase.co';
+  var SB_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InhpYmNsam93cmN3ZHl2d2hnbGp1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzk4NDU0ODQsImV4cCI6MjA5NTQyMTQ4NH0.ZFB9zka-7vvnk20wuZN3f-qQtYYkmmWN1lky4z7l0iI';
+  fetch(SB_URL + '/rest/v1/visitor_counter?select=count&id=eq.1', {
+    headers: {
+      'apikey': SB_KEY,
+      'Authorization': 'Bearer ' + SB_KEY
+    }
+  }).then(function (r) { return r.json(); })
+    .then(function (d) {
+      if (d && d[0]) document.getElementById('vc-num').textContent = Number(d[0].count).toLocaleString();
+    })
+    .catch(function () { document.getElementById('visitor-counter').style.display = 'none'; });
+})();
+</script>
