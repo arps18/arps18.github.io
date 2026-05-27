@@ -112,7 +112,7 @@ Boris is direct about two things that matter more than the rest:
 
 ### 3.1 The Real CLAUDE.md From the Claude Code Team
 
-Boris has shared the actual `CLAUDE.md` the Claude Code team checks into their own repo. The whole team contributes mulle times a week:
+Boris has shared the actual `CLAUDE.md` the Claude Code team checks into their own repo. The whole team contributes multiple times a week:
 
 ```markdown
 # Development Workflow
@@ -607,7 +607,7 @@ Collected from Boris, Cat Wu, Thariq, and the broader team. These are the patter
 
 <i class="fi fi-rr-angle-right" style="color:#00FF00"></i> **Build a `/techdebt` slash command.** Run it at the end of every session to find and kill duplicated code.
 
-<i class="fi fi-rr-angle-right" style="color:#00FF00"></i> **The team's `CLAUDE.md` is shared and edited mulle times a week.** Anytime someone sees Claude do something incorrectly, they add a rule. Treat it as a living document.
+<i class="fi fi-rr-angle-right" style="color:#00FF00"></i> **The team's `CLAUDE.md` is shared and edited multiple times a week.** Anytime someone sees Claude do something incorrectly, they add a rule. Treat it as a living document.
 
 <i class="fi fi-rr-angle-right" style="color:#00FF00"></i> **`Esc` twice opens rewind.** Combined with checkpoints: try risky things, find out they failed, rewind cleanly.
 
