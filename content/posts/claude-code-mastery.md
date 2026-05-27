@@ -25,6 +25,8 @@ TocOpen: false
 </style>
 <img src="/images/claude-code.svg" class="claude-dance" style="height:2.5em;vertical-align:middle;margin-bottom:0.5em;">
 
+[![Hacker News](https://img.shields.io/badge/Hacker%20News-%237%20on%20Front%20Page-FF6600?style=flat&logo=ycombinator&logoColor=white)](https://news.ycombinator.com/item?id=48289950)
+
 Claude Code is one of those tools where the difference between a casual user and someone who has internalized it is enormous. The casual user types prompts, accepts suggestions, and treats it like a fancier autocomplete. The daily driver uses it like a programmable agent with memory, custom commands, parallel sessions, and a project setup that compounds over time. This guide is for the second kind of person, assuming you already know what `claude` does when you type it in a terminal.
 
 ---
