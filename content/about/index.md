@@ -83,6 +83,7 @@ I was the **Chapter Lead of the Mozilla Campus Club** at my undergraduate campus
 - [**Projects**](/projects/): Things I've built across distributed systems, IoT, and open source
 - [**Posts**](/posts/): Writing on backend engineering, distributed systems, and lessons learned
 - [**Shelf**](/shelf/): Books, papers, and articles I find worth reading
+- [**Resources**](/resources/): Useful websites, tools, and references I keep coming back to
 
 ---
 
