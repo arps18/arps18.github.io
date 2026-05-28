@@ -45,9 +45,9 @@ A few patterns that change how you operate day to day:
 
 **Delegate, do not pair-program.** Cat Wu (Claude Code team): "The model performs best if you treat it like an engineer you're delegating to, not a pair programmer you're guiding line by line." Write a crisp brief upfront, then let it run.
 
-> <img src="/images/claude-code.svg" style="height:1em;vertical-align:middle;display:inline;margin-right:4px;"><span style="color:#00FF00">**:**</span> <span style="color:#00FFFF">Press `Ctrl+G` to open Claude's plan in your editor and tweak it before Claude proceeds. The plan is just text, so shape it before it becomes code.</span>
+> <img src="/images/claude-code.svg" style="height:1em;vertical-align:middle;display:inline;margin-right:4px;"><span style="color:#06b6d4">**:**</span> <span style="color:#06b6d4">Press `Ctrl+G` to open Claude's plan in your editor and tweak it before Claude proceeds. The plan is just text, so shape it before it becomes code.</span>
 
-> <img src="/images/claude-code.svg" style="height:1em;vertical-align:middle;display:inline;margin-right:4px;"><span style="color:#00FF00">**:**</span> <span style="color:#00FFFF">When Claude makes a mistake, end your prompt with "Update CLAUDE.md so you do not repeat this." Boris calls Claude "eerily good at writing rules for itself" from its own failures. This habit compounds more than any other in this guide.</span>
+> <img src="/images/claude-code.svg" style="height:1em;vertical-align:middle;display:inline;margin-right:4px;"><span style="color:#06b6d4">**:**</span> <span style="color:#06b6d4">When Claude makes a mistake, end your prompt with "Update CLAUDE.md so you do not repeat this." Boris calls Claude "eerily good at writing rules for itself" from its own failures. This habit compounds more than any other in this guide.</span>
 
 ---
 
@@ -98,7 +98,7 @@ A few things easy to miss:
 
 **Skills over commands.** `.claude/commands/*.md` and `.claude/skills/<name>/SKILL.md` both create slash commands, but skills support supporting files, `disable-model-invocation`, allowed tools, and agent overrides. New work should go in `skills/`.
 
-> <img src="/images/claude-code.svg" style="height:1em;vertical-align:middle;display:inline;margin-right:4px;"><span style="color:#00FF00">**:**</span> <span style="color:#00FFFF">Run `claude project purge ~/path/to/repo --dry-run` to see exactly what local state Claude holds for a project, handy before handing off a laptop.</span>
+> <img src="/images/claude-code.svg" style="height:1em;vertical-align:middle;display:inline;margin-right:4px;"><span style="color:#06b6d4">**:**</span> <span style="color:#06b6d4">Run `claude project purge ~/path/to/repo --dry-run` to see exactly what local state Claude holds for a project, handy before handing off a laptop.</span>
 
 ---
 
@@ -181,7 +181,7 @@ The "Gotchas" section is the magic. Every entry is a mistake Claude made, captur
 
 **What does not belong in `CLAUDE.md`:** standard language conventions, file-by-file codebase descriptions, long tutorials, API docs, anything that changes frequently.
 
-> <img src="/images/claude-code.svg" style="height:1em;vertical-align:middle;display:inline;margin-right:4px;"><span style="color:#00FF00">**:**</span> <span style="color:#00FFFF">Words like `IMPORTANT` or `YOU MUST` improve adherence. Use them sparingly so they carry weight.</span>
+> <img src="/images/claude-code.svg" style="height:1em;vertical-align:middle;display:inline;margin-right:4px;"><span style="color:#06b6d4">**:**</span> <span style="color:#06b6d4">Words like `IMPORTANT` or `YOU MUST` improve adherence. Use them sparingly so they carry weight.</span>
 
 You can import other files using `@path` syntax to keep `CLAUDE.md` short while pulling in details:
 
@@ -223,9 +223,9 @@ The way I use it: after every PR I open, reviewers leave comments. Instead of tr
 
 Loaded every session, Claude already knows to include auth-failure tests and update the OpenAPI spec without me mentioning it. Nitpick comments on my PRs dropped noticeably within a couple of weeks.
 
-> <img src="/images/claude-code.svg" style="height:1em;vertical-align:middle;display:inline;margin-right:4px;"><span style="color:#00FF00">**:**</span> <span style="color:#00FFFF">Keep two sections clearly separated: project-specific feedback and personal habits to correct. Mixing them makes the file harder to prune later.</span>
+> <img src="/images/claude-code.svg" style="height:1em;vertical-align:middle;display:inline;margin-right:4px;"><span style="color:#06b6d4">**:**</span> <span style="color:#06b6d4">Keep two sections clearly separated: project-specific feedback and personal habits to correct. Mixing them makes the file harder to prune later.</span>
 
-> <img src="/images/claude-code.svg" style="height:1em;vertical-align:middle;display:inline;margin-right:4px;"><span style="color:#00FF00">**:**</span> <span style="color:#00FFFF">Prune after a few weeks. Things that have become muscle memory can go. The file should capture what is still learning, not what you already do automatically.</span>
+> <img src="/images/claude-code.svg" style="height:1em;vertical-align:middle;display:inline;margin-right:4px;"><span style="color:#06b6d4">**:**</span> <span style="color:#06b6d4">Prune after a few weeks. Things that have become muscle memory can go. The file should capture what is still learning, not what you already do automatically.</span>
 
 ---
 
@@ -273,7 +273,7 @@ agent: read-only
 ---
 ```
 
-> <img src="/images/claude-code.svg" style="height:1em;vertical-align:middle;display:inline;margin-right:4px;"><span style="color:#00FF00">**:**</span> <span style="color:#00FFFF">Use `disable-model-invocation: true` for skills with side effects. You want `/ship` to deploy only when explicitly typed, not when Claude decides it is relevant.</span>
+> <img src="/images/claude-code.svg" style="height:1em;vertical-align:middle;display:inline;margin-right:4px;"><span style="color:#06b6d4">**:**</span> <span style="color:#06b6d4">Use `disable-model-invocation: true` for skills with side effects. You want `/ship` to deploy only when explicitly typed, not when Claude decides it is relevant.</span>
 
 ### 5.2 Writing a Real Skill: Go API Conventions
 
@@ -332,9 +332,9 @@ Install: `npx skills@latest add mattpocock/skills`
 - `/batch`: fans out a migration to dozens of parallel agents, each in its own worktree
 - `/webapp-testing`: gives Claude Playwright control to test your local web app
 
-> <img src="/images/claude-code.svg" style="height:1em;vertical-align:middle;display:inline;margin-right:4px;"><span style="color:#00FF00">**:**</span> <span style="color:#00FFFF">If you do something more than once a day, turn it into a skill. Anything you repeat is a skill waiting to be written.</span>
+> <img src="/images/claude-code.svg" style="height:1em;vertical-align:middle;display:inline;margin-right:4px;"><span style="color:#06b6d4">**:**</span> <span style="color:#06b6d4">If you do something more than once a day, turn it into a skill. Anything you repeat is a skill waiting to be written.</span>
 
-> <img src="/images/claude-code.svg" style="height:1em;vertical-align:middle;display:inline;margin-right:4px;"><span style="color:#00FF00">**:**</span> <span style="color:#00FFFF">Check skills into git. They become institutional knowledge, and new engineers clone the repo and get the team's accumulated practices for free.</span>
+> <img src="/images/claude-code.svg" style="height:1em;vertical-align:middle;display:inline;margin-right:4px;"><span style="color:#06b6d4">**:**</span> <span style="color:#06b6d4">Check skills into git. They become institutional knowledge, and new engineers clone the repo and get the team's accumulated practices for free.</span>
 
 ---
 
@@ -404,9 +404,9 @@ Community patterns worth adopting:
 
 Curated repos: [VoltAgent/awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents) (100+ agents) and [hesreallyhim/a-list-of-claude-code-agents](https://github.com/hesreallyhim/a-list-of-claude-code-agents).
 
-> <img src="/images/claude-code.svg" style="height:1em;vertical-align:middle;display:inline;margin-right:4px;"><span style="color:#00FF00">**:**</span> <span style="color:#00FFFF">Chain agents: Session A implements, then call `Use the code-reviewer subagent to check the work.` The reviewer evaluates in a fresh context with no implementation bias.</span>
+> <img src="/images/claude-code.svg" style="height:1em;vertical-align:middle;display:inline;margin-right:4px;"><span style="color:#06b6d4">**:**</span> <span style="color:#06b6d4">Chain agents: Session A implements, then call `Use the code-reviewer subagent to check the work.` The reviewer evaluates in a fresh context with no implementation bias.</span>
 
-> <img src="/images/claude-code.svg" style="height:1em;vertical-align:middle;display:inline;margin-right:4px;"><span style="color:#00FF00">**:**</span> <span style="color:#00FFFF">Add `isolation: worktree` to frontmatter to run the subagent in its own git worktree, especially powerful when fanning out a migration across dozens of parallel agents.</span>
+> <img src="/images/claude-code.svg" style="height:1em;vertical-align:middle;display:inline;margin-right:4px;"><span style="color:#06b6d4">**:**</span> <span style="color:#06b6d4">Add `isolation: worktree` to frontmatter to run the subagent in its own git worktree, especially powerful when fanning out a migration across dozens of parallel agents.</span>
 
 ---
 
@@ -428,7 +428,7 @@ Plugin categories worth knowing (1,000+ plugins across 75+ marketplaces as of mi
 
 - Git workflow, code intelligence (LSP), documentation generators, testing, browser automation (Playwright), design system (Figma), observability (Sentry, Datadog)
 
-> <img src="/images/claude-code.svg" style="height:1em;vertical-align:middle;display:inline;margin-right:4px;"><span style="color:#00FF00">**:**</span> <span style="color:#00FFFF">A team-shared `.mcp.json` plus a few well-chosen plugins gets a new engineer productive within minutes of cloning the repo. Treat plugin choices as part of your onboarding story.</span>
+> <img src="/images/claude-code.svg" style="height:1em;vertical-align:middle;display:inline;margin-right:4px;"><span style="color:#06b6d4">**:**</span> <span style="color:#06b6d4">A team-shared `.mcp.json` plus a few well-chosen plugins gets a new engineer productive within minutes of cloning the repo. Treat plugin choices as part of your onboarding story.</span>
 
 ---
 
@@ -458,9 +458,9 @@ Most users learn `/clear`, `/compact`, and `/init` and stop. A handful of the re
 
 **`/rewind`** creates a checkpoint for every prompt, and those persist across sessions. When Claude goes down a wrong path, do not type "that did not work, try X," as that pollutes context. Rewind and re-prompt with what you learned.
 
-> <img src="/images/claude-code.svg" style="height:1em;vertical-align:middle;display:inline;margin-right:4px;"><span style="color:#00FF00">**:**</span> <span style="color:#00FFFF">Use `!` as a shell escape. `!git status` or `!npm test` runs immediately with output landing in context.</span>
+> <img src="/images/claude-code.svg" style="height:1em;vertical-align:middle;display:inline;margin-right:4px;"><span style="color:#06b6d4">**:**</span> <span style="color:#06b6d4">Use `!` as a shell escape. `!git status` or `!npm test` runs immediately with output landing in context.</span>
 
-> <img src="/images/claude-code.svg" style="height:1em;vertical-align:middle;display:inline;margin-right:4px;"><span style="color:#00FF00">**:**</span> <span style="color:#00FFFF">Set `CLAUDE_CODE_AUTO_COMPACT_WINDOW=400000`. Context rot kicks in around 300-400k tokens on the 1M model, so force earlier compaction to stay sharp.</span>
+> <img src="/images/claude-code.svg" style="height:1em;vertical-align:middle;display:inline;margin-right:4px;"><span style="color:#06b6d4">**:**</span> <span style="color:#06b6d4">Set `CLAUDE_CODE_AUTO_COMPACT_WINDOW=400000`. Context rot kicks in around 300-400k tokens on the 1M model, so force earlier compaction to stay sharp.</span>
 
 **Fan-out pattern:** generate a task list, then loop:
 
@@ -500,7 +500,7 @@ Companions that pair well:
 - A `Stop` hook: gate on your own test suite or CI endpoint
 - **Auto mode**: removes permission prompts so long goals do not stall
 
-> <img src="/images/claude-code.svg" style="height:1em;vertical-align:middle;display:inline;margin-right:4px;"><span style="color:#00FF00">**:**</span> <span style="color:#00FFFF">Combine `/goal` + auto mode + `/focus`. Write a crisp brief, set the goal, walk away. Come back to a finished PR. This is the workflow Boris and Cat Wu push for Opus 4.7.</span>
+> <img src="/images/claude-code.svg" style="height:1em;vertical-align:middle;display:inline;margin-right:4px;"><span style="color:#06b6d4">**:**</span> <span style="color:#06b6d4">Combine `/goal` + auto mode + `/focus`. Write a crisp brief, set the goal, walk away. Come back to a finished PR. This is the workflow Boris and Cat Wu push for Opus 4.7.</span>
 
 ---
 
@@ -567,9 +567,9 @@ vault/
 - `Check 30-Decisions/ for anything related to retry policies.`
 - `Read the last 3 session logs for billing-v2. Tell me where I left off.`
 
-> <img src="/images/claude-code.svg" style="height:1em;vertical-align:middle;display:inline;margin-right:4px;"><span style="color:#00FF00">**:**</span> <span style="color:#00FFFF">Resist installing every MCP. Each one expands the tool list Claude reasons over, and bloated tool lists hurt decision quality. Starter set: GitHub, Context7, plus one or two domain-specific.</span>
+> <img src="/images/claude-code.svg" style="height:1em;vertical-align:middle;display:inline;margin-right:4px;"><span style="color:#06b6d4">**:**</span> <span style="color:#06b6d4">Resist installing every MCP. Each one expands the tool list Claude reasons over, and bloated tool lists hurt decision quality. Starter set: GitHub, Context7, plus one or two domain-specific.</span>
 
-> <img src="/images/claude-code.svg" style="height:1em;vertical-align:middle;display:inline;margin-right:4px;"><span style="color:#00FF00">**:**</span> <span style="color:#00FFFF">Run `/mcp` inside Claude Code to list every active server and its connection status. First place to check when something is not working.</span>
+> <img src="/images/claude-code.svg" style="height:1em;vertical-align:middle;display:inline;margin-right:4px;"><span style="color:#06b6d4">**:**</span> <span style="color:#06b6d4">Run `/mcp` inside Claude Code to list every active server and its connection status. First place to check when something is not working.</span>
 
 ---
 
@@ -591,7 +591,7 @@ vault/
 
 **Compact at milestones.** After finishing a logical chunk: `/compact Preserve the decisions made, files changed, and test commands.`
 
-> <img src="/images/claude-code.svg" style="height:1em;vertical-align:middle;display:inline;margin-right:4px;"><span style="color:#00FF00">**:**</span> <span style="color:#00FFFF">Never let Claude claim success without evidence, whether that is tests, screenshots, or real command output. The trust-then-verify gap is the single biggest source of bad output.</span>
+> <img src="/images/claude-code.svg" style="height:1em;vertical-align:middle;display:inline;margin-right:4px;"><span style="color:#06b6d4">**:**</span> <span style="color:#06b6d4">Never let Claude claim success without evidence, whether that is tests, screenshots, or real command output. The trust-then-verify gap is the single biggest source of bad output.</span>
 
 ---
 
@@ -599,31 +599,31 @@ vault/
 
 Collected from Boris, Cat Wu, Thariq, and the broader team. These are the patterns that actually change how they work:
 
-<i class="fi fi-rr-angle-right" style="color:#00FF00"></i> **"Give Claude a way to verify its output. Once you do that, Claude will iterate until the result is great."** Boris's single most-repeated .
+<i class="fi fi-rr-angle-right" style="color:#06b6d4"></i> **"Give Claude a way to verify its output. Once you do that, Claude will iterate until the result is great."** Boris's single most-repeated .
 
-<i class="fi fi-rr-angle-right" style="color:#00FF00"></i> **Use Opus with high or xhigh effort for almost everything.** The smaller model that needs more correction is often slower overall, which is Boris's reasoning for defaulting to Opus.
+<i class="fi fi-rr-angle-right" style="color:#06b6d4"></i> **Use Opus with high or xhigh effort for almost everything.** The smaller model that needs more correction is often slower overall, which is Boris's reasoning for defaulting to Opus.
 
-<i class="fi fi-rr-angle-right" style="color:#00FF00"></i> **Run 3-5 sessions in parallel.** Worktrees over checkouts. Use `claude --worktree` or the Desktop app. The agent view ties them together.
+<i class="fi fi-rr-angle-right" style="color:#06b6d4"></i> **Run 3-5 sessions in parallel.** Worktrees over checkouts. Use `claude --worktree` or the Desktop app. The agent view ties them together.
 
-<i class="fi fi-rr-angle-right" style="color:#00FF00"></i> **Maintain a notes directory per project, updated after every PR.** Tell Claude to keep notes in a directory, point `CLAUDE.md` at it. The codebase compounds in self-knowledge.
+<i class="fi fi-rr-angle-right" style="color:#06b6d4"></i> **Maintain a notes directory per project, updated after every PR.** Tell Claude to keep notes in a directory, point `CLAUDE.md` at it. The codebase compounds in self-knowledge.
 
-<i class="fi fi-rr-angle-right" style="color:#00FF00"></i> **Build a `/techdebt` slash command.** Run it at the end of every session to find and kill duplicated code.
+<i class="fi fi-rr-angle-right" style="color:#06b6d4"></i> **Build a `/techdebt` slash command.** Run it at the end of every session to find and kill duplicated code.
 
-<i class="fi fi-rr-angle-right" style="color:#00FF00"></i> **The team's `CLAUDE.md` is shared and edited multiple times a week.** Anytime someone sees Claude do something incorrectly, they add a rule. Treat it as a living document.
+<i class="fi fi-rr-angle-right" style="color:#06b6d4"></i> **The team's `CLAUDE.md` is shared and edited multiple times a week.** Anytime someone sees Claude do something incorrectly, they add a rule. Treat it as a living document.
 
-<i class="fi fi-rr-angle-right" style="color:#00FF00"></i> **`Esc` twice opens rewind.** Combined with checkpoints: try risky things, find out they failed, rewind cleanly.
+<i class="fi fi-rr-angle-right" style="color:#06b6d4"></i> **`Esc` twice opens rewind.** Combined with checkpoints: try risky things, find out they failed, rewind cleanly.
 
-<i class="fi fi-rr-angle-right" style="color:#00FF00"></i> **For UI changes, set up Playwright MCP.** Boris uses the Chrome extension every time he works on web code, where Claude opens a browser, clicks around, and verifies.
+<i class="fi fi-rr-angle-right" style="color:#06b6d4"></i> **For UI changes, set up Playwright MCP.** Boris uses the Chrome extension every time he works on web code, where Claude opens a browser, clicks around, and verifies.
 
-<i class="fi fi-rr-angle-right" style="color:#00FF00"></i> **Install a language server plugin.** Type errors and unused imports caught after every edit. Highest-impact plugin you can install.
+<i class="fi fi-rr-angle-right" style="color:#06b6d4"></i> **Install a language server plugin.** Type errors and unused imports caught after every edit. Highest-impact plugin you can install.
 
-<i class="fi fi-rr-angle-right" style="color:#00FF00"></i> **Use `/voice` for prompting.** You speak 3x faster than you type, and prompts get way more detailed as a result.
+<i class="fi fi-rr-angle-right" style="color:#06b6d4"></i> **Use `/voice` for prompting.** You speak 3x faster than you type, and prompts get way more detailed as a result.
 
-<i class="fi fi-rr-angle-right" style="color:#00FF00"></i> **Auto mode + `/focus` + `/goal`.** Crisp brief, set the goal, walk away. Come back to a finished PR.
+<i class="fi fi-rr-angle-right" style="color:#06b6d4"></i> **Auto mode + `/focus` + `/goal`.** Crisp brief, set the goal, walk away. Come back to a finished PR.
 
-<i class="fi fi-rr-angle-right" style="color:#00FF00"></i> **Use `Ctrl+G` to edit Claude's plan in your editor before implementation.** Faster than typing corrections in the chat.
+<i class="fi fi-rr-angle-right" style="color:#06b6d4"></i> **Use `Ctrl+G` to edit Claude's plan in your editor before implementation.** Faster than typing corrections in the chat.
 
-<i class="fi fi-rr-angle-right" style="color:#00FF00"></i> **Ask Claude to draw ASCII diagrams of new protocols and codebases.** Boris's for understanding unfamiliar code quickly.
+<i class="fi fi-rr-angle-right" style="color:#06b6d4"></i> **Ask Claude to draw ASCII diagrams of new protocols and codebases.** Boris's for understanding unfamiliar code quickly.
 
 ---
 

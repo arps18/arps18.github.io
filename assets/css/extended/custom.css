@@ -1,4 +1,17 @@
 /* ============================================================
+   Light mode — warm cream background (from arpitbhayani.me)
+   ============================================================ */
+:root {
+  --theme: #fef7ec;
+}
+
+/* PaperMod overrides body bg to --code-bg on list/search pages;
+   restore it to --theme so the cream is consistent everywhere. */
+.list {
+  background: var(--theme);
+}
+
+/* ============================================================
    Fira Code — site-wide font override
    Loaded automatically by PaperMod from assets/css/extended/
    ============================================================ */
