@@ -116,7 +116,7 @@ Boris cares about two things here, and the rest is noise once you've got these d
 
 ### 3.1 The Real CLAUDE.md From the Claude Code Team
 
-Boris pulled up his terminal during a talk and showed us the actual `CLAUDE.md` the Claude Code team checks into their own repo. The whole team contributes to it multiple times a week.
+In one of his talks, Boris walked through the actual `CLAUDE.md` the Claude Code team checks into their own repo. The whole team contributes to it multiple times a week.
 
 ```markdown
 # Development Workflow
