@@ -613,7 +613,7 @@ vault/
 
 ---
 
-## <i class="fi fi-rr-lightbulb"></i> 11. s From the Anthropic Team
+## <i class="fi fi-rr-lightbulb"></i> 11. Tips From the Anthropic Team
 
 Boris pulled me aside after a demo and said the difference between people who get Claude and people who fight it comes down to maybe a dozen habits. Here's what he, Cat Wu, Thariq, and the rest of the team actually do day to day...
 
