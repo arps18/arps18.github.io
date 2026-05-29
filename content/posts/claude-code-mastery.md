@@ -615,7 +615,7 @@ vault/
 
 ## <i class="fi fi-rr-lightbulb"></i> 11. Tips From the Anthropic Team
 
-Boris pulled me aside after a demo and said the difference between people who get Claude and people who fight it comes down to maybe a dozen habits. Here's what he, Cat Wu, Thariq, and the rest of the team actually do day to day...
+The difference between people who get Claude and people who fight it comes down to maybe a dozen habits. Here's what Boris, Cat Wu, Thariq, and the rest of the team actually do day to day...
 
 <i class="fi fi-rr-angle-right" style="color:#06b6d4"></i> **"Give Claude a way to verify its output. Once you do that, Claude will iterate until the result is great."** Boris's single most-repeated point.
 
