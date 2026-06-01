@@ -197,5 +197,6 @@ git submodule update --remote --merge
 - [Hugo](https://gohugo.io) — the static site generator
 - [PaperMod](https://github.com/adityatelange/hugo-PaperMod/) by [Aditya Telange](https://adityatelange.in) — the theme
 - Reference site that inspired this: [adityatelange.in](https://adityatelange.in)
+- Icons by [Flaticon](https://www.flaticon.com)
 
 ---
