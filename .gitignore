@@ -1,3 +1,6 @@
+# Local scratch/playground — never push
+/tmp/
+
 # Hugo build output
 /public/
 /resources/_gen/
