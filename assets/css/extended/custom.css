@@ -766,3 +766,58 @@ img.profile-photo {
 .dark .visitor-counter .fi {
   color: #2dd4bf;
 }
+
+/* ============================================================
+   Tip callouts  ({{< tip >}} shortcode) + KaTeX math display
+   ============================================================ */
+
+.tip-callout {
+  background: rgba(16, 185, 129, 0.06);
+  border-left: 3px solid #10b981;
+  border-radius: 0 6px 6px 0;
+  padding: 0.8rem 1.1rem;
+  margin: 1.4rem 0;
+}
+
+.tip-callout__header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.4rem;
+}
+
+.tip-callout__header .fi {
+  color: #059669;
+  font-size: 1.1em;
+  vertical-align: middle;
+}
+
+.tip-callout__title {
+  color: #047857;
+  font-weight: 600;
+}
+
+.tip-callout__body > *:first-child { margin-top: 0; }
+.tip-callout__body > *:last-child  { margin-bottom: 0; }
+
+.tip-callout .katex-display {
+  margin: 0.6rem 0;
+}
+
+.dark .tip-callout {
+  background: rgba(52, 211, 153, 0.08);
+  border-left-color: #34d399;
+}
+
+.dark .tip-callout__header .fi {
+  color: #34d399;
+}
+
+.dark .tip-callout__title {
+  color: #6ee7b7;
+}
+
+.katex-display {
+  overflow-x: auto;
+  overflow-y: hidden;
+}

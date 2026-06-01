@@ -1,0 +1,11 @@
+{{ $title := .Get "title" }}
+{{ $icon := .Get "icon" | default "fi-rr-bulb" }}
+<aside class="tip-callout">
+  <div class="tip-callout__header">
+    <i class="fi {{ $icon }}" aria-hidden="true"></i>
+    <span class="tip-callout__title">{{ $title }}</span>
+  </div>
+  <div class="tip-callout__body">
+    {{ .Inner | markdownify }}
+  </div>
+</aside>

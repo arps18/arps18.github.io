@@ -15,6 +15,13 @@ pygmentsUseClasses: true
 mainsections:
   - posts
 
+module:
+  mounts:
+    - source: content
+      target: content
+    - source: tmp/blogs
+      target: content/posts/drafts
+
 minify:
   disableXML: true
 
@@ -142,6 +149,15 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+    extensions:
+      passthrough:
+        delimiters:
+          block:
+            - ['$$', '$$']
+            - ['\[', '\]']
+          inline:
+            - ['\(', '\)']
+        enable: true
   highlight:
     noClasses: false
     codeFences: true
