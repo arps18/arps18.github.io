@@ -573,6 +573,375 @@ img.profile-photo {
   border-left-color: rgba(45, 212, 191, 0.45);
 }
 
+/* CV header — compact identity block at the top */
+.cv-header {
+  display: flex;
+  align-items: center;
+  gap: 1.1rem;
+  margin: 0 0 1.4rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid rgba(13, 148, 136, 0.18);
+}
+
+.cv-header-photo {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+  border: 2px solid rgba(13, 148, 136, 0.35);
+}
+
+.dark .cv-header-photo {
+  border-color: rgba(45, 212, 191, 0.35);
+}
+
+.cv-header-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  min-width: 0;
+}
+
+.cv-content .cv-name {
+  border: none;
+  padding: 0;
+  margin: 0;
+  font-size: 1.35rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+.cv-tagline {
+  margin: 0 !important;
+  color: var(--secondary);
+  font-size: 0.9em;
+}
+
+.cv-links {
+  margin: 0.1rem 0 0 !important;
+  font-size: 0.85em;
+  color: var(--secondary);
+}
+
+.cv-links a {
+  color: #4a90d9;
+  text-decoration: none;
+  border-bottom: 1px dotted rgba(74, 144, 217, 0.5);
+}
+
+.cv-links a:hover {
+  color: #2563eb;
+  border-bottom-color: rgba(37, 99, 235, 0.9);
+}
+
+.dark .cv-links a {
+  color: #7eb8f7;
+  border-bottom-color: rgba(126, 184, 247, 0.45);
+}
+
+.dark .cv-links a:hover {
+  color: #93c5fd;
+  border-bottom-color: rgba(147, 197, 253, 0.85);
+}
+
+@media (max-width: 480px) {
+  .cv-header {
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+  }
+  .cv-header-photo {
+    width: 64px;
+    height: 64px;
+  }
+}
+
+/* ============================================================
+   CV — section header, timeline, and cards
+   ============================================================ */
+
+.cv-content .section-header {
+  margin: 2rem 0 1rem;
+  padding-bottom: 0.55rem;
+  border-bottom: 1px solid rgba(22, 163, 74, 0.3);
+}
+
+.cv-content .section-header h2 {
+  border: none;
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 1.05rem;
+  color: #16a34a;
+}
+
+.dark .cv-content .section-header {
+  border-bottom-color: rgba(74, 222, 128, 0.3);
+}
+
+.dark .cv-content .section-header h2 {
+  color: #4ade80;
+}
+
+/* Timeline — vertical rail with dot markers (sky-blue palette) */
+.cv-content .timeline {
+  position: relative;
+  padding-left: 22px;
+  margin: 0.6rem 0 1rem;
+}
+
+.cv-content .timeline::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 6px;
+  bottom: 6px;
+  width: 1px;
+  background-color: rgba(14, 165, 233, 0.4);
+}
+
+.dark .cv-content .timeline::before {
+  background-color: rgba(56, 189, 248, 0.35);
+}
+
+.cv-content .timeline-item {
+  position: relative;
+  margin-bottom: 1.6rem;
+}
+
+.cv-content .timeline-item::before {
+  content: "";
+  position: absolute;
+  left: -26px;
+  top: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #38bdf8;
+  box-shadow: 0 0 0 3px var(--theme);
+}
+
+.dark .cv-content .timeline-item::before {
+  background-color: #7dd3fc;
+  box-shadow: 0 0 0 3px var(--theme);
+}
+
+/* Current role — larger filled sky-blue dot with halo ring */
+.cv-content .timeline-item.current::before {
+  width: 10px;
+  height: 10px;
+  top: 8px;
+  left: -27px;
+  background-color: #0ea5e9;
+  box-shadow:
+    0 0 0 3px var(--theme),
+    0 0 0 5px rgba(14, 165, 233, 0.35);
+}
+
+.dark .cv-content .timeline-item.current::before {
+  background-color: #38bdf8;
+  box-shadow:
+    0 0 0 3px var(--theme),
+    0 0 0 5px rgba(56, 189, 248, 0.4);
+}
+
+.cv-content .timeline-item-content h3,
+.cv-content .timeline-item-content h4 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  padding: 0;
+}
+
+.cv-content .ti-meta {
+  margin: 0.25rem 0 0.35rem !important;
+  font-size: 0.85em;
+  color: var(--secondary);
+  letter-spacing: 0.01em;
+}
+
+/* Tech line inside timeline entries — yellow label on a soft neutral row.
+   Reuses the same yellow accent the rest of .cv-content uses for strong. */
+.cv-content .ti-tech {
+  margin: 0.2rem 0 0.5rem !important;
+  font-size: 0.85em;
+  color: var(--secondary);
+  border-left: 2px solid var(--border);
+  padding: 0.15rem 0.6rem;
+  background: var(--code-bg);
+  border-radius: 0 4px 4px 0;
+}
+
+.cv-content .ti-tech strong {
+  color: #ca8a04;
+  font-weight: 600;
+}
+
+.dark .cv-content .ti-tech strong {
+  color: #facc15;
+}
+
+.cv-content .timeline-item-content ul {
+  margin: 0.4rem 0 0;
+  padding-left: 1.1rem;
+}
+
+.cv-content .timeline-item-content ul li {
+  font-size: 0.92em;
+  margin-bottom: 0.2rem;
+}
+
+/* Cards grid — for Side Projects (compact, subtle) */
+.cv-content .cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 0.7rem;
+  margin: 0.8rem 0 1.2rem;
+}
+
+.cv-content .cv-card {
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  padding: 0.6rem 0.8rem 0.65rem;
+  background: var(--entry);
+  transition: border-color 0.15s ease;
+}
+
+.cv-content .cv-card:hover {
+  border-color: rgba(22, 163, 74, 0.5);
+}
+
+.dark .cv-content .cv-card:hover {
+  border-color: rgba(74, 222, 128, 0.45);
+}
+
+.cv-content .cv-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 0.4rem;
+  margin-bottom: 0.2rem;
+}
+
+.cv-content .cv-card-header h3,
+.cv-content .cv-card-header h4,
+.cv-content .cv-card-header h5 {
+  margin: 0;
+  font-size: 0.9rem;
+  font-weight: 600;
+  border: none;
+  padding: 0;
+  line-height: 1.35;
+}
+
+/* Card link colors match the site's existing /projects/ blue palette */
+.cv-content .cv-card-header a {
+  color: #4a90d9;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+  text-decoration-color: rgba(74, 144, 217, 0.45);
+}
+
+.cv-content .cv-card-header a:hover {
+  color: #2563eb;
+  text-decoration-color: rgba(37, 99, 235, 0.7);
+}
+
+.dark .cv-content .cv-card-header a {
+  color: #7eb8f7;
+  text-decoration-color: rgba(126, 184, 247, 0.4);
+}
+
+.dark .cv-content .cv-card-header a:hover {
+  color: #93c5fd;
+  text-decoration-color: rgba(147, 197, 253, 0.7);
+}
+
+.cv-content .card-tech {
+  margin: 0 0 0.3rem !important;
+  font-size: 0.72em;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: var(--secondary);
+}
+
+.cv-content .cv-card p:not(.card-tech) {
+  margin: 0;
+  font-size: 0.82em;
+  line-height: 1.5;
+  color: var(--content);
+}
+
+@media (max-width: 600px) {
+  .cv-content .cards-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Technical Skills — rows of category label + pill cluster */
+.cv-content .skills-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+  margin: 1rem 0 1.4rem;
+}
+
+.cv-content .skills-row {
+  display: grid;
+  grid-template-columns: 160px 1fr;
+  gap: 0.9rem;
+  align-items: baseline;
+}
+
+.cv-content .skills-label {
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: var(--secondary);
+  padding-top: 0.15rem;
+}
+
+.cv-content .skills-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.4rem;
+}
+
+.cv-content .skill-pill {
+  display: inline-block;
+  padding: 0.18rem 0.6rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  font-size: 0.78rem;
+  line-height: 1.4;
+  color: var(--content);
+  background: var(--entry);
+  white-space: nowrap;
+  transition: border-color 0.15s ease, color 0.15s ease;
+}
+
+.cv-content .skill-pill:hover {
+  border-color: rgba(14, 165, 233, 0.55);
+  color: #0369a1;
+}
+
+.dark .cv-content .skill-pill:hover {
+  border-color: rgba(56, 189, 248, 0.5);
+  color: #7dd3fc;
+}
+
+@media (max-width: 600px) {
+  .cv-content .skills-row {
+    grid-template-columns: 1fr;
+    gap: 0.3rem;
+  }
+}
+
 /* ============================================================
    Dev Setup box — colored category labels
    ============================================================ */
