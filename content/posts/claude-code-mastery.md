@@ -2,6 +2,7 @@
 title: "Beyond the Prompt: Claude Code"
 date: 2026-05-26T00:00:00+00:00
 draft: false
+pinned: true
 tags: ["Claude Code", "AI", "Devtools", "Workflow", "Engineering"]
 categories: ["engineering"]
 summary: "A deep dive into Claude Code for daily users. Covers the .claude directory, CLAUDE.md the way Boris writes it, CLAUDE.local.md, Skills with real examples, custom subagents, plugins, underused commands like /goal and /insights, MCPs, and the workflow patterns the Anthropic team actually uses."

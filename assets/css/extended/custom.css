@@ -1050,6 +1050,26 @@ img.profile-photo {
 }
 
 /* ============================================================
+   Pinned post — pin icon + card accent
+   ============================================================ */
+
+.entry-pinned {
+  color: #ca8a04;
+}
+
+.dark .entry-pinned {
+  color: #facc15;
+}
+
+.pinned-entry {
+  border-left: 3px solid rgba(202, 138, 4, 0.45);
+}
+
+.dark .pinned-entry {
+  border-left-color: rgba(250, 204, 21, 0.35);
+}
+
+/* ============================================================
    Landing page — "Read more" link in profile subtitle
    ============================================================ */
 
