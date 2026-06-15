@@ -8,15 +8,38 @@
 <script>
 (function () {
   if (!/^\/posts\/[^/]/.test(window.location.pathname)) return;
+
+  // Drop cap
   var content = document.querySelector('.post-content');
-  if (!content) return;
-  var paras = content.querySelectorAll(':scope > p');
-  for (var i = 0; i < paras.length; i++) {
-    var first = paras[i].firstChild;
-    if (first && first.nodeType === 3 && first.textContent.trim().length > 0) {
-      paras[i].classList.add('drop-cap');
-      break;
+  if (content) {
+    var paras = content.querySelectorAll(':scope > p');
+    for (var i = 0; i < paras.length; i++) {
+      var first = paras[i].firstChild;
+      if (first && first.nodeType === 3 && first.textContent.trim().length > 0) {
+        paras[i].classList.add('drop-cap');
+        break;
+      }
     }
   }
+
+  // Scroll progress bar
+  var bar = document.createElement('div');
+  bar.id = 'scroll-progress';
+  document.body.appendChild(bar);
+
+  var ticking = false;
+  function updateBar() {
+    var total = document.documentElement.scrollHeight - window.innerHeight;
+    var progress = total > 0 ? window.scrollY / total : 0;
+    bar.style.transform = 'scaleX(' + progress + ')';
+    ticking = false;
+  }
+
+  window.addEventListener('scroll', function () {
+    if (!ticking) {
+      requestAnimationFrame(updateBar);
+      ticking = true;
+    }
+  }, { passive: true });
 })();
 </script>
