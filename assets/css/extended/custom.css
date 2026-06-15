@@ -1210,3 +1210,21 @@ img.profile-photo {
   overflow-x: auto;
   overflow-y: hidden;
 }
+
+/* ============================================================
+   Drop cap — first letter of post body
+   ============================================================ */
+
+.post-content > p.drop-cap::first-letter {
+  float: left;
+  font-size: 3.6em;
+  font-weight: 700;
+  line-height: 0.78;
+  padding-right: 0.1em;
+  margin-top: 0.06em;
+  color: #0d9488;
+}
+
+.dark .post-content > p.drop-cap::first-letter {
+  color: #2dd4bf;
+}
