@@ -1,0 +1,22 @@
+{{ if .Page.Store.Get "hasMermaid" }}
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+  mermaid.initialize({ startOnLoad: true });
+</script>
+{{ end }}
+
+<script>
+(function () {
+  if (!/^\/posts\/[^/]/.test(window.location.pathname)) return;
+  var content = document.querySelector('.post-content');
+  if (!content) return;
+  var paras = content.querySelectorAll(':scope > p');
+  for (var i = 0; i < paras.length; i++) {
+    var first = paras[i].firstChild;
+    if (first && first.nodeType === 3 && first.textContent.trim().length > 0) {
+      paras[i].classList.add('drop-cap');
+      break;
+    }
+  }
+})();
+</script>
