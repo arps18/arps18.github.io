@@ -1251,6 +1251,30 @@ img.profile-photo {
   overflow-y: hidden;
 }
 
+
+/* ============================================================
+   Resources page — per-item link color cycle
+   body.page-resources is added by JS on /resources/ only
+   ============================================================ */
+
+body.page-resources .post-content ul li:nth-child(8n+1) a { color: #0d9488; text-decoration-color: rgba(13, 148, 136, .3); }
+body.page-resources .post-content ul li:nth-child(8n+2) a { color: #d97706; text-decoration-color: rgba(217, 119, 6, .3); }
+body.page-resources .post-content ul li:nth-child(8n+3) a { color: #0891b2; text-decoration-color: rgba(8, 145, 178, .3); }
+body.page-resources .post-content ul li:nth-child(8n+4) a { color: #7c3aed; text-decoration-color: rgba(124, 58, 237, .3); }
+body.page-resources .post-content ul li:nth-child(8n+5) a { color: #db2777; text-decoration-color: rgba(219, 39, 119, .3); }
+body.page-resources .post-content ul li:nth-child(8n+6) a { color: #16a34a; text-decoration-color: rgba(22, 163, 74, .3); }
+body.page-resources .post-content ul li:nth-child(8n+7) a { color: #ea580c; text-decoration-color: rgba(234, 88, 12, .3); }
+body.page-resources .post-content ul li:nth-child(8n)   a { color: #4f46e5; text-decoration-color: rgba(79, 70, 229, .3); }
+
+.dark body.page-resources .post-content ul li:nth-child(8n+1) a { color: #2dd4bf; text-decoration-color: rgba(45, 212, 191, .3); }
+.dark body.page-resources .post-content ul li:nth-child(8n+2) a { color: #fcd34d; text-decoration-color: rgba(252, 211, 77, .3); }
+.dark body.page-resources .post-content ul li:nth-child(8n+3) a { color: #a5f3fc; text-decoration-color: rgba(165, 243, 252, .3); }
+.dark body.page-resources .post-content ul li:nth-child(8n+4) a { color: #ddd6fe; text-decoration-color: rgba(221, 214, 254, .3); }
+.dark body.page-resources .post-content ul li:nth-child(8n+5) a { color: #f9a8d4; text-decoration-color: rgba(249, 168, 212, .3); }
+.dark body.page-resources .post-content ul li:nth-child(8n+6) a { color: #bbf7d0; text-decoration-color: rgba(187, 247, 208, .3); }
+.dark body.page-resources .post-content ul li:nth-child(8n+7) a { color: #fed7aa; text-decoration-color: rgba(254, 215, 170, .3); }
+.dark body.page-resources .post-content ul li:nth-child(8n)   a { color: #c7d2fe; text-decoration-color: rgba(199, 210, 254, .3); }
+
 /* ============================================================
    Scroll progress bar — blog posts only
    ============================================================ */

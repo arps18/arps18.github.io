@@ -7,6 +7,9 @@
 
 <script>
 (function () {
+  if (/^\/resources\//.test(window.location.pathname))
+    document.body.classList.add('page-resources');
+
   if (!/^\/posts\/[^/]/.test(window.location.pathname)) return;
 
   // Drop cap

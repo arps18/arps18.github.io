@@ -13,6 +13,10 @@ A growing collection of websites, tools, and references I keep coming back to. B
 
 ## <span style="color: #3b82f6;"><i class="fi fi-rr-graduation-cap"></i> Learning & Tutorials</span>
 
+- <i class="fi fi-rr-star" style="color:#f59e0b;"></i> **[Semicolony](https://semicolony.dev/)**: My favorite and go to developer's space with study paths, simulators, visualizations, and deep dives across the whole CS stack. One of the most thoughtfully built learning sites out there. Three corners I keep coming back to:
+  - **[Postmortems](https://semicolony.dev/postmortems)**: Annotated write ups of real infrastructure outages, config failures, data disasters, networking meltdowns, with the operational lessons pulled out cleanly. Better than any textbook on what actually breaks in production. Love it!
+  - **[ELI5](https://semicolony.dev/eli5)**: Complex technical concepts stripped down to their simplest form. The kind of clarity you wish more writing had.
+  - **[Decide](https://semicolony.dev/decide)**: A tool for navigating technical decisions trade-offs surfaced and options compared so you're not choosing blind.
 - **[Go by Example](https://gobyexample.com/)**: Hands-on introduction to Go with annotated, runnable example programs. The fastest way to get productive in Go if you already know another language.
 - **[The Rust Book](https://doc.rust-lang.org/book/)**: The official Rust learning resource. Comprehensive, well-paced, and the standard starting point for the language.
 - **[Rustlings](https://github.com/rust-lang/rustlings)**: Small exercises that get you used to reading and writing Rust. The companion drill book to The Rust Book.
@@ -54,6 +58,8 @@ A growing collection of websites, tools, and references I keep coming back to. B
 - **[How to Write a Git Commit Message](https://cbea.ms/git-commit/)**: Chris Beams' seven rules for writing useful commit messages. The reason most well-maintained repos look the way they do.
 - **[Conventional Commits](https://www.conventionalcommits.org/)**: A simple specification for commit messages that machines and humans both find readable. Pairs naturally with semver and automated release tooling.
 
+_In my opinion, now AI handles most of the format and conventions pretty well, yet these are still worth a read :)_
+
 ---
 
 ## <span style="color: #06b6d4;"><i class="fi fi-rr-cloud"></i> Cloud & DevOps</span>
@@ -75,7 +81,7 @@ A growing collection of websites, tools, and references I keep coming back to. B
 - **[Microservices.io](https://microservices.io/)**: Chris Richardson's catalog of microservice patterns, with diagrams, trade-offs, and real-world context.
 - **[AWS Builders' Library](https://aws.amazon.com/builders-library/)**: Long-form articles where senior AWS engineers explain how they actually build and run services. One of the most underrated technical resources online.
 - **[C4 Model](https://c4model.com/)**: A lightweight notation for diagramming software architecture at four levels (context, container, component, code). Simple enough to actually use.
-- **[Architectural Decision Records](https://adr.github.io/)**: A template and toolkit for capturing the *why* behind architectural choices in your repo, before the reasoning gets lost.
+- **[Architectural Decision Records](https://adr.github.io/)**: A template and toolkit for capturing the _why_ behind architectural choices in your repo, before the reasoning gets lost.
 - **[Awesome Scalability](https://github.com/binhnguyennus/awesome-scalability)**: A massive, well-maintained reading list of scalability, availability, and performance case studies.
 - **[ThoughtWorks Technology Radar](https://www.thoughtworks.com/radar)**: A twice-yearly snapshot of which technologies, techniques, and platforms are worth adopting, trialling, or avoiding.
 - **[InfoQ Architecture & Design](https://www.infoq.com/architecture-design/)**: News, articles, and conference talks on software architecture. Good for staying current on what the industry's actually doing.
@@ -116,14 +122,13 @@ A growing collection of websites, tools, and references I keep coming back to. B
 
 ## <span style="color: #6366f1;"><i class="fi fi-rr-comment-alt"></i> Blogs & Creators</span>
 
-- **[Semicolony](https://semicolony.dev/)**: A developer's space with thoughtful projects, deep dives, and writing about the craft. Worth a follow for the breadth.
-- **[Martin Kleppmann](https://martin.kleppmann.com/)**: Author of *Designing Data-Intensive Applications*, researcher in distributed systems and local-first software. His writing is uniformly excellent.
+- **[Martin Kleppmann](https://martin.kleppmann.com/)**: Author of _Designing Data-Intensive Applications_, researcher in distributed systems and local-first software. His writing is uniformly excellent.
 - **[Dan Luu](https://danluu.com/)**: Data-driven essays on software, hardware, hiring, and why so many things in this industry are worse than they should be.
 - **[Julia Evans (jvns.ca)](https://jvns.ca/)**: Friendly, illustrated deep dives into how computers actually work: networking, debuggers, the Linux kernel. The zines are gold.
 - **[Aphyr / Jepsen](https://aphyr.com/)**: Kyle Kingsbury's blog and the Jepsen distributed-systems testing reports. The bar for "is this database actually correct?"
 - **[Brendan Gregg](https://www.brendangregg.com/)**: Performance engineering, profiling, flame graphs, eBPF. If something is slow in production, his site has the technique to find out why.
 - **[Eli Bendersky](https://eli.thegreenplace.net/)**: Patient, deeply-researched posts on compilers, Go, low-level systems, and CS fundamentals.
-- **[Russ Cox (research.swtch.com)](https://research.swtch.com/)**: Go core team, language design, regex, supply chain. Among the clearest technical writers working today.
+- **[Russ Cox](https://swtch.com/~rsc/)**: Former Go language lead, now at Google Research. His [personal site](https://swtch.com/~rsc/) is an index of projects, papers, and talks spanning Plan 9, regex theory, and systems research going back to the early 2000s — the kind of depth you don't find anymore. His [blog](https://research.swtch.com/) covers Go internals, language design, supply chain, and more, and is among the clearest technical writing today.
 - **[Marc Brooker](https://brooker.co.za/blog/)**: AWS principal engineer writing about distributed systems in practice. Excellent on the gap between theory and operating a service.
 - **[Arpit Bhayani](https://arpitbhayani.me/blogs)**: System design and database internals explained with depth and clarity. Approachable deep dives into how production systems actually work, well-loved in the backend community.
 - **[Ben Kuhn](https://www.benkuhn.net/)**: Engineering management, productivity, and decision-making essays from Anthropic's CTO. Short and consistently sharp.
