@@ -13,7 +13,7 @@ hideMeta: true
   <img src="/images/profile.png" alt="Arpan Patel" class="cv-header-photo">
   <div class="cv-header-info">
     <h2 class="cv-name">Arpan Patel</h2>
-    <p class="cv-tagline">Software Developer Engineer • Austin, TX</p>
+    <p class="cv-tagline">Software Engineer II  • Austin, TX</p>
     <p class="cv-links">
       <a href="mailto:arpanpatel.contact@gmail.com">Email</a> •
       <a href="https://linkedin.com/in/arpanpatel18/" target="_blank" rel="noopener">LinkedIn</a> •
@@ -41,12 +41,13 @@ Software Developer Engineer with a Master's in Computer Science from Northeaster
 <div class="timeline-item current">
 <div class="timeline-item-content">
 
-#### Software Developer Engineer
+#### Software Engineer II
 
 <p class="ti-meta"><a href="https://www.linkedin.com/company/credit-acceptance/" target="_blank" rel="noopener">Credit Acceptance</a> • Jan 2025 – Present • Austin, TX (Remote)</p>
 
 <p class="ti-tech"><strong>Tech:</strong> Micronaut, Docker, Kubernetes, SQL, REST APIs, Microservices, GitHub Actions, Tomcat</p>
 
+- Architected new Go microservices to eliminate overhead, achieving 30% faster execution for core backend processes.
 - Developed and maintained REST APIs, enhancing system interoperability by 30%.
 - Built an internal service that streamlined data processing workflows, reducing query response time by 40%.
 - Optimized a critical Oracle SQL query from 8s to 500ms through indexing and execution plan analysis — a 16× speedup.
