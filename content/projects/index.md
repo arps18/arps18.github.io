@@ -13,6 +13,22 @@ A curated list of things I've built — across distributed systems, systems prog
 
 <div class="card">
   <div class="card-header">
+    <h3><a href="/portman/">Portman — Your Friendly Port Manager</a></h3>
+    <span class="badge active">active</span>
+  </div>
+  <div class="card-content">
+    <p>A small command-line tool that shows which process is listening on a local TCP port when a development server reports “port already in use.”</p>
+    <p><strong>Tech:</strong> Go · CLI · macOS · TCP · lsof</p>
+    <ul>
+      <li>Inspect a port with a single command: <code>portman 3000</code></li>
+      <li>See listening processes and their PIDs without remembering lsof flags</li>
+      <li>Install through Homebrew; open source under the MIT license</li>
+    </ul>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-header">
     <h3><a href="https://github.com/arps18/Project-Andromex" target="_blank" rel="noopener">Project Andromex — Minimal Compiler in Go</a></h3>
     <span class="badge active">active</span>
   </div>
