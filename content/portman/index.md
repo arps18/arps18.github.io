@@ -20,7 +20,7 @@ hideMeta: true
 
 [View on GitHub](https://github.com/arps18/portman) · [Releases](https://github.com/arps18/portman/releases) · [Report an issue](https://github.com/arps18/portman/issues)
 
-## Install
+## <i class="fi fi-rr-rocket"></i> Install
 
 On macOS, install with [Homebrew](https://brew.sh/):
 
@@ -30,7 +30,7 @@ brew install arps18/tap/portman
 
 Requires `lsof`. Prebuilt binaries for Apple Silicon and Intel Macs, along with checksums, are also available on the [release page](https://github.com/arps18/portman/releases/latest).
 
-## Find a listener
+## <i class="fi fi-rr-search"></i> Find a listener
 
 Pass the port you want to inspect:
 
@@ -55,7 +55,7 @@ Use a port between `1` and `65535`. A completed inspection exits with status `0`
 
 Portman currently inspects **TCP listeners on macOS**. Results depend on what `lsof` can see with your permissions. It does not stop processes.
 
-## Use with coding agents
+## <i class="fi fi-rr-robot"></i> Use with coding agents
 
 Coding agents with shell access can run Portman when it's installed and on their `PATH`. Add this to your agent's project instructions:
 
@@ -66,7 +66,7 @@ portman <port> to inspect its TCP listeners.
 
 No dedicated integration is needed; Portman returns terminal output.
 
-## Releases & roadmap
+## <i class="fi fi-rr-calendar"></i> Releases & roadmap
 
 <div class="card">
   <div class="card-header">
@@ -92,7 +92,7 @@ Planned next steps from the project's roadmap. These features are **not yet rele
 
 [See all releases](https://github.com/arps18/portman/releases) for the latest version and downloads.
 
-## About the project
+## <i class="fi fi-rr-lightbulb"></i> About the project
 
 I'm building Portman as a hobby project to learn Go, testing, CLI design, and operating-system fundamentals. Small tool, real development problem.
 
