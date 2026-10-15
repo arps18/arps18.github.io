@@ -10,7 +10,7 @@ hideMeta: true
 ---
 
 <div class="portman-meta" aria-label="Project details">
-  <a class="badge active" href="https://github.com/arps18/portman/releases/tag/v0.1.0" target="_blank" rel="noopener noreferrer">v0.1.0</a>
+  <a class="badge active" href="https://github.com/arps18/portman/releases/tag/v0.2.0" target="_blank" rel="noopener noreferrer">v0.2.0</a>
   <span class="badge">macOS</span>
   <span class="badge">Written in Go</span>
   <span class="badge">MIT license</span>
@@ -28,7 +28,7 @@ On macOS, install with [Homebrew](https://brew.sh/):
 brew install arps18/tap/portman
 ```
 
-Requires `lsof`. Prebuilt binaries for Apple Silicon and Intel Macs, along with checksums, are also available on the [release page](https://github.com/arps18/portman/releases/latest).
+Requires `lsof`. Prebuilt binaries for Apple Silicon and Intel Macs, along with checksums, are also available on the [release page.](https://github.com/arps18/portman/releases/latest)
 
 ## <i class="fi fi-rr-search"></i> Find a listener
 
@@ -51,6 +51,15 @@ Nothing listening? Portman tells you that too:
 No TCP listeners found on port 3000
 ```
 
+Need a reminder of the commands, or want to confirm the installed version?
+
+```sh {linenos=false}
+portman --help
+portman --version
+```
+
+`-h` is also available for help.
+
 Use a port between `1` and `65535`. A completed inspection exits with status `0`, even when there are no listeners. Invalid input or an inspection failure exits with status `1`.
 
 Portman currently inspects **TCP listeners on macOS**. Results depend on what `lsof` can see with your permissions. It does not stop processes.
@@ -68,22 +77,30 @@ No dedicated integration is needed; Portman returns terminal output.
 
 ## <i class="fi fi-rr-calendar"></i> Releases & roadmap
 
-<div class="card">
+<div class="card portman-release-card">
   <div class="card-header">
-    <h3><a href="https://github.com/arps18/portman/releases/tag/v0.1.0" target="_blank" rel="noopener noreferrer">v0.1.0 — First release</a></h3>
+    <h3><a href="https://github.com/arps18/portman/releases/tag/v0.2.0" target="_blank" rel="noopener noreferrer">v0.2.0 — Help, version, and clearer errors</a></h3>
     <span class="badge active">released</span>
   </div>
   <div class="card-content">
-    <p>Inspect a local TCP port on macOS, with Homebrew installation and binaries for Apple Silicon and Intel Macs.</p>
-    <p><a href="https://github.com/arps18/portman/commits/v0.1.0" target="_blank" rel="noopener noreferrer">Browse the changelog →</a></p>
+    <p>Added <code>--help</code> / <code>-h</code> and <code>--version</code>, clearer invalid-port errors, and a direct message when <code>lsof</code> is unavailable.</p>
+    <p><a href="https://github.com/arps18/portman/compare/v0.1.0...v0.2.0" target="_blank" rel="noopener noreferrer">Browse the changelog →</a></p>
   </div>
 </div>
 
-Planned next steps from the project's roadmap. These features are **not yet released**, and scope may change:
+<div class="card portman-release-card">
+  <div class="card-header">
+    <h3><a href="https://github.com/arps18/portman/releases/tag/v0.1.0" target="_blank" rel="noopener noreferrer">v0.1.0 — First release</a></h3>
+  </div>
+  <div class="card-content">
+    <p>Introduced local TCP port inspection on macOS, with Homebrew installation and binaries for Apple Silicon and Intel Macs.</p>
+  </div>
+</div>
+
+<p class="portman-roadmap-intro">Planned next steps from the project's roadmap. These features are <strong>not yet released</strong>, and scope may change:</p>
 
 | Version | Planned work |
 | --- | --- |
-| v0.2.0 | Help and version commands; clearer errors |
 | v0.3.0 | List all visible TCP listeners |
 | v0.4.0 | JSON output for scripts and tools |
 | v0.5.0 | Stop a listener with confirmation and graceful termination |

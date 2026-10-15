@@ -269,6 +269,14 @@ details[open] > .collapse-box__title::before {
   box-shadow: none;
 }
 
+.portman-release-card + .portman-release-card {
+  margin-top: 1rem;
+}
+
+.portman-release-card + .portman-roadmap-intro {
+  margin-top: 1.5rem;
+}
+
 .dark .portman-meta a.badge {
   color: #4ade80;
 }
